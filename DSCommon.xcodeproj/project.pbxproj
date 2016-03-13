@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C67856701C92B07100C88FF0 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C678566F1C92B07100C88FF0 /* DSBaseViewController.m */; };
+		C67856731C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */; };
+		C67856761C92BAD700C88FF0 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */; };
 		C6D703C41C92AC0200F9375D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C31C92AC0200F9375D /* main.m */; };
 		C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C61C92AC0200F9375D /* AppDelegate.m */; };
 		C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C91C92AC0200F9375D /* ViewController.m */; };
@@ -21,6 +23,11 @@
 /* Begin PBXFileReference section */
 		C678566E1C92B07100C88FF0 /* DSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseViewController.h; sourceTree = "<group>"; };
 		C678566F1C92B07100C88FF0 /* DSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseViewController.m; sourceTree = "<group>"; };
+		C67856711C92B9DE00C88FF0 /* UIScreen+DSScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+DSScreenSize.h"; sourceTree = "<group>"; };
+		C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+DSScreenSize.m"; sourceTree = "<group>"; };
+		C67856741C92BAD700C88FF0 /* NSString+DSEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSEncrypt.h"; sourceTree = "<group>"; };
+		C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSEncrypt.m"; sourceTree = "<group>"; };
+		C67856771C92BD9B00C88FF0 /* DSCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCommon.h; sourceTree = "<group>"; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703C31C92AC0200F9375D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6D703C51C92AC0200F9375D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,10 +100,15 @@
 		C6D703D91C92AC9800F9375D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C67856771C92BD9B00C88FF0 /* DSCommon.h */,
 				C6D703DB1C92ACD500F9375D /* UIColor+DSHexColor.h */,
 				C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */,
 				C6D703DE1C92ACF200F9375D /* UIView+DSCapture.h */,
 				C6D703DF1C92ACF200F9375D /* UIView+DSCapture.m */,
+				C67856711C92B9DE00C88FF0 /* UIScreen+DSScreenSize.h */,
+				C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */,
+				C67856741C92BAD700C88FF0 /* NSString+DSEncrypt.h */,
+				C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -180,11 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67856731C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m in Sources */,
 				C67856701C92B07100C88FF0 /* DSBaseViewController.m in Sources */,
 				C6D703E01C92ACF200F9375D /* UIView+DSCapture.m in Sources */,
 				C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */,
 				C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */,
 				C6D703DD1C92ACD500F9375D /* UIColor+DSHexColor.m in Sources */,
+				C67856761C92BAD700C88FF0 /* NSString+DSEncrypt.m in Sources */,
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
