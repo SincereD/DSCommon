@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C63ED6141C98137700990BA5 /* DSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C63ED6131C98137700990BA5 /* DSDevice.m */; };
 		C67856701C92B07100C88FF0 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C678566F1C92B07100C88FF0 /* DSBaseViewController.m */; };
 		C67856731C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */; };
 		C67856761C92BAD700C88FF0 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C63ED6121C98137700990BA5 /* DSDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDevice.h; sourceTree = "<group>"; };
+		C63ED6131C98137700990BA5 /* DSDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDevice.m; sourceTree = "<group>"; };
 		C678566E1C92B07100C88FF0 /* DSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseViewController.h; sourceTree = "<group>"; };
 		C678566F1C92B07100C88FF0 /* DSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseViewController.m; sourceTree = "<group>"; };
 		C67856711C92B9DE00C88FF0 /* UIScreen+DSScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+DSScreenSize.h"; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				C67856771C92BD9B00C88FF0 /* DSCommon.h */,
+				C63ED6121C98137700990BA5 /* DSDevice.h */,
+				C63ED6131C98137700990BA5 /* DSDevice.m */,
 				C6D703DB1C92ACD500F9375D /* UIColor+DSHexColor.h */,
 				C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */,
 				C6D703DE1C92ACF200F9375D /* UIView+DSCapture.h */,
@@ -196,6 +201,7 @@
 				C67856701C92B07100C88FF0 /* DSBaseViewController.m in Sources */,
 				C6D703E01C92ACF200F9375D /* UIView+DSCapture.m in Sources */,
 				C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */,
+				C63ED6141C98137700990BA5 /* DSDevice.m in Sources */,
 				C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */,
 				C6D703DD1C92ACD500F9375D /* UIColor+DSHexColor.m in Sources */,
 				C67856761C92BAD700C88FF0 /* NSString+DSEncrypt.m in Sources */,

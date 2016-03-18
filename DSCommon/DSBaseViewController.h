@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  ViewController基类
+ */
 @interface DSBaseViewController : UIViewController
+
+- (UIBarButtonItem*)rightBarButtonItem;
+
+- (UIBarButtonItem*)leftBarButtonItem;
+
+- (UITabBar*)tabBar;
 
 @end

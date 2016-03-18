@@ -10,4 +10,19 @@
 
 @implementation DSBaseViewController
 
+- (UIBarButtonItem*)rightBarButtonItem
+{
+    return self.navigationController.navigationItem.rightBarButtonItem;
+}
+
+- (UIBarButtonItem*)leftBarButtonItem
+{
+    return self.navigationController.navigationItem.leftBarButtonItem;
+}
+
+- (UITabBar*)tabBar
+{
+    return self.tabBarController.tabBar;
+}
+
 @end
