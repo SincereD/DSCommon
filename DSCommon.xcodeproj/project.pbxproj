@@ -19,6 +19,7 @@
 		C6D703D21C92AC0300F9375D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D703D01C92AC0300F9375D /* LaunchScreen.storyboard */; };
 		C6D703DD1C92ACD500F9375D /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */; };
 		C6D703E01C92ACF200F9375D /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703DF1C92ACF200F9375D /* UIView+DSCapture.m */; };
+		C6EB46AC1CA2D052002D9D50 /* NSString+DSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DSHexColor.m"; sourceTree = "<group>"; };
 		C6D703DE1C92ACF200F9375D /* UIView+DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DSCapture.h"; sourceTree = "<group>"; };
 		C6D703DF1C92ACF200F9375D /* UIView+DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DSCapture.m"; sourceTree = "<group>"; };
+		C6EB46AA1CA2D052002D9D50 /* NSString+DSPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSPredicate.h"; sourceTree = "<group>"; };
+		C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSPredicate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */,
 				C67856741C92BAD700C88FF0 /* NSString+DSEncrypt.h */,
 				C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */,
+				C6EB46AA1CA2D052002D9D50 /* NSString+DSPredicate.h */,
+				C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				C67856731C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m in Sources */,
 				C67856701C92B07100C88FF0 /* DSBaseViewController.m in Sources */,
 				C6D703E01C92ACF200F9375D /* UIView+DSCapture.m in Sources */,
+				C6EB46AC1CA2D052002D9D50 /* NSString+DSPredicate.m in Sources */,
 				C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */,
 				C63ED6141C98137700990BA5 /* DSDevice.m in Sources */,
 				C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */,
