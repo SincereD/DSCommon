@@ -9,9 +9,12 @@
 #ifndef DSCommon_h
 #define DSCommon_h
 
+#import "DSBaseViewController.h"
+
 #import "UIColor+DSHexColor.h"
-#import "UIView+DSCapture"
-#import "UIScreen+DSScreenSize"
-#import "NSString+DSEncrypt"
+#import "UIView+DSCapture.h"
+#import "UIScreen+DSScreenSize.h"
+#import "NSString+DSEncrypt.h"
+#import "NSString+DSPredicate.h"
 
 #endif /* DSCommon_h */
