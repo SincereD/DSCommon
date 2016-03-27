@@ -9,7 +9,7 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>SincereCommon.xcscheme</key>
+		<key>SIncereCommon.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -23,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>C6D703BE1C92AC0200F9375D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6F666CB1CA7BDA9000478C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6F666DD1CA7BE04000478C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

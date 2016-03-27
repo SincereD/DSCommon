@@ -14,23 +14,23 @@
 		C6D703CF1C92AC0200F9375D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D703CE1C92AC0200F9375D /* Assets.xcassets */; };
 		C6D703D21C92AC0300F9375D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D703D01C92AC0300F9375D /* LaunchScreen.storyboard */; };
 		C6F666B21CA7BBBD000478C7 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */; };
-		C6F666B31CA7BBBD000478C7 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */; };
 		C6F666BF1CA7BBE5000478C7 /* DSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B41CA7BBE5000478C7 /* DSDevice.m */; };
-		C6F666C01CA7BBE5000478C7 /* DSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B41CA7BBE5000478C7 /* DSDevice.m */; };
 		C6F666C11CA7BBE5000478C7 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */; };
-		C6F666C21CA7BBE5000478C7 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */; };
 		C6F666C31CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */; };
-		C6F666C41CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */; };
 		C6F666C51CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
-		C6F666C61CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
 		C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
-		C6F666C81CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
 		C6F666C91CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
-		C6F666CA1CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
+		C6F666E71CA7BE23000478C7 /* DSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B41CA7BBE5000478C7 /* DSDevice.m */; };
+		C6F666E81CA7BE23000478C7 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */; };
+		C6F666E91CA7BE23000478C7 /* NSString+DSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */; };
+		C6F666EA1CA7BE23000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
+		C6F666EB1CA7BE23000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
+		C6F666EC1CA7BE23000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
+		C6F666ED1CA7BE23000478C7 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C685CE0D1CA2D92E00101DBD /* CopyFiles */ = {
+		C6F666DC1CA7BE04000478C7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -42,7 +42,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C685CE0F1CA2D92E00101DBD /* libSincereCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSincereCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703C31C92AC0200F9375D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6D703C51C92AC0200F9375D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,17 +67,18 @@
 		C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+DSScreenSize.m"; path = "DSCommon/UIScreen+DSScreenSize.m"; sourceTree = "<group>"; };
 		C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DSCapture.h"; path = "DSCommon/UIView+DSCapture.h"; sourceTree = "<group>"; };
 		C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DSCapture.m"; path = "DSCommon/UIView+DSCapture.m"; sourceTree = "<group>"; };
+		C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSIncereCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C685CE0C1CA2D92E00101DBD /* Frameworks */ = {
+		C6D703BC1C92AC0200F9375D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6D703BC1C92AC0200F9375D /* Frameworks */ = {
+		C6F666DB1CA7BE04000478C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,6 +93,7 @@
 			children = (
 				C6F666AD1CA7BB8D000478C7 /* Classes */,
 				C6D703C11C92AC0200F9375D /* DSCommon */,
+				C6F666DF1CA7BE04000478C7 /* SIncereCommon */,
 				C6D703C01C92AC0200F9375D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C6D703BF1C92AC0200F9375D /* DSCommon.app */,
-				C685CE0F1CA2D92E00101DBD /* libSincereCommon.a */,
+				C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,26 +153,16 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		C6F666DF1CA7BE04000478C7 /* SIncereCommon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SIncereCommon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C685CE0E1CA2D92E00101DBD /* SincereCommon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C685CE171CA2D92E00101DBD /* Build configuration list for PBXNativeTarget "SincereCommon" */;
-			buildPhases = (
-				C685CE0B1CA2D92E00101DBD /* Sources */,
-				C685CE0C1CA2D92E00101DBD /* Frameworks */,
-				C685CE0D1CA2D92E00101DBD /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SincereCommon;
-			productName = SincereCommon;
-			productReference = C685CE0F1CA2D92E00101DBD /* libSincereCommon.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		C6D703BE1C92AC0200F9375D /* DSCommon */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6D703D61C92AC0300F9375D /* Build configuration list for PBXNativeTarget "DSCommon" */;
@@ -189,6 +180,23 @@
 			productReference = C6D703BF1C92AC0200F9375D /* DSCommon.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C6F666DD1CA7BE04000478C7 /* SIncereCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F666E41CA7BE04000478C7 /* Build configuration list for PBXNativeTarget "SIncereCommon" */;
+			buildPhases = (
+				C6F666DA1CA7BE04000478C7 /* Sources */,
+				C6F666DB1CA7BE04000478C7 /* Frameworks */,
+				C6F666DC1CA7BE04000478C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIncereCommon;
+			productName = SIncereCommon;
+			productReference = C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +206,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Sincere;
 				TargetAttributes = {
-					C685CE0E1CA2D92E00101DBD = {
-						CreatedOnToolsVersion = 7.3;
-					};
 					C6D703BE1C92AC0200F9375D = {
 						CreatedOnToolsVersion = 7.2.1;
+					};
+					C6F666DD1CA7BE04000478C7 = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -220,7 +228,7 @@
 			projectRoot = "";
 			targets = (
 				C6D703BE1C92AC0200F9375D /* DSCommon */,
-				C685CE0E1CA2D92E00101DBD /* SincereCommon */,
+				C6F666DD1CA7BE04000478C7 /* SIncereCommon */,
 			);
 		};
 /* End PBXProject section */
@@ -239,20 +247,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C685CE0B1CA2D92E00101DBD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6F666C41CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */,
-				C6F666C21CA7BBE5000478C7 /* NSString+DSEncrypt.m in Sources */,
-				C6F666C61CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */,
-				C6F666C81CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */,
-				C6F666CA1CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */,
-				C6F666C01CA7BBE5000478C7 /* DSDevice.m in Sources */,
-				C6F666B31CA7BBBD000478C7 /* DSBaseViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C6D703BB1C92AC0200F9375D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +261,20 @@
 				C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */,
 				C6F666C31CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */,
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F666DA1CA7BE04000478C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F666E81CA7BE23000478C7 /* NSString+DSEncrypt.m in Sources */,
+				C6F666EB1CA7BE23000478C7 /* UIScreen+DSScreenSize.m in Sources */,
+				C6F666EC1CA7BE23000478C7 /* UIView+DSCapture.m in Sources */,
+				C6F666E71CA7BE23000478C7 /* DSDevice.m in Sources */,
+				C6F666ED1CA7BE23000478C7 /* DSBaseViewController.m in Sources */,
+				C6F666EA1CA7BE23000478C7 /* UIColor+DSHexColor.m in Sources */,
+				C6F666E91CA7BE23000478C7 /* NSString+DSPredicate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,28 +300,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C685CE151CA2D92E00101DBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C685CE161CA2D92E00101DBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		C6D703D41C92AC0300F9375D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -416,18 +402,31 @@
 			};
 			name = Release;
 		};
+		C6F666E51CA7BE04000478C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C6F666E61CA7BE04000478C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C685CE171CA2D92E00101DBD /* Build configuration list for PBXNativeTarget "SincereCommon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C685CE151CA2D92E00101DBD /* Debug */,
-				C685CE161CA2D92E00101DBD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C6D703BA1C92AC0200F9375D /* Build configuration list for PBXProject "DSCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -445,6 +444,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C6F666E41CA7BE04000478C7 /* Build configuration list for PBXNativeTarget "SIncereCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F666E51CA7BE04000478C7 /* Debug */,
+				C6F666E61CA7BE04000478C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

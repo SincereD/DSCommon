@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C685CE0E1CA2D92E00101DBD"
-               BuildableName = "libSincereCommon.a"
-               BlueprintName = "SincereCommon"
+               BlueprintIdentifier = "C6F666DD1CA7BE04000478C7"
+               BuildableName = "libSIncereCommon.a"
+               BlueprintName = "SIncereCommon"
                ReferencedContainer = "container:DSCommon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C685CE0E1CA2D92E00101DBD"
-            BuildableName = "libSincereCommon.a"
-            BlueprintName = "SincereCommon"
+            BlueprintIdentifier = "C6F666DD1CA7BE04000478C7"
+            BuildableName = "libSIncereCommon.a"
+            BlueprintName = "SIncereCommon"
             ReferencedContainer = "container:DSCommon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C685CE0E1CA2D92E00101DBD"
-            BuildableName = "libSincereCommon.a"
-            BlueprintName = "SincereCommon"
+            BlueprintIdentifier = "C6F666DD1CA7BE04000478C7"
+            BuildableName = "libSIncereCommon.a"
+            BlueprintName = "SIncereCommon"
             ReferencedContainer = "container:DSCommon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
