@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  UnSafe 方法，需要填写完整的16进制颜色信息<6位英文字母、数字>
+ */
 @interface UIColor (DSHexColor)
 /**
  *  16进制色值

@@ -11,8 +11,6 @@
 		C67856701C92B07100C88FF0 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C678566F1C92B07100C88FF0 /* DSBaseViewController.m */; };
 		C67856731C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */; };
 		C67856761C92BAD700C88FF0 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */; };
-		C685CE121CA2D92E00101DBD /* SincereCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C685CE111CA2D92E00101DBD /* SincereCommon.h */; };
-		C685CE141CA2D92E00101DBD /* SincereCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C685CE131CA2D92E00101DBD /* SincereCommon.m */; };
 		C685CE181CA2D93E00101DBD /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C678566F1C92B07100C88FF0 /* DSBaseViewController.m */; };
 		C685CE191CA2D94300101DBD /* DSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C63ED6131C98137700990BA5 /* DSDevice.m */; };
 		C685CE1A1CA2D94300101DBD /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */; };
@@ -38,7 +36,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C685CE121CA2D92E00101DBD /* SincereCommon.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +52,6 @@
 		C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSEncrypt.m"; sourceTree = "<group>"; };
 		C67856771C92BD9B00C88FF0 /* DSCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCommon.h; sourceTree = "<group>"; };
 		C685CE0F1CA2D92E00101DBD /* libSincereCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSincereCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C685CE111CA2D92E00101DBD /* SincereCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SincereCommon.h; sourceTree = "<group>"; };
-		C685CE131CA2D92E00101DBD /* SincereCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SincereCommon.m; sourceTree = "<group>"; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703C31C92AC0200F9375D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6D703C51C92AC0200F9375D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,8 +91,8 @@
 		C685CE101CA2D92E00101DBD /* SincereCommon */ = {
 			isa = PBXGroup;
 			children = (
-				C685CE111CA2D92E00101DBD /* SincereCommon.h */,
-				C685CE131CA2D92E00101DBD /* SincereCommon.m */,
+				C6D703DA1C92ACA000F9375D /* BaseCalss */,
+				C6D703D91C92AC9800F9375D /* Category */,
 			);
 			path = SincereCommon;
 			sourceTree = "<group>";
@@ -127,8 +122,6 @@
 				C6D703C61C92AC0200F9375D /* AppDelegate.m */,
 				C6D703C81C92AC0200F9375D /* ViewController.h */,
 				C6D703C91C92AC0200F9375D /* ViewController.m */,
-				C6D703DA1C92ACA000F9375D /* BaseCalss */,
-				C6D703D91C92AC9800F9375D /* Category */,
 				C6D703CB1C92AC0200F9375D /* Main.storyboard */,
 				C6D703CE1C92AC0200F9375D /* Assets.xcassets */,
 				C6D703D01C92AC0300F9375D /* LaunchScreen.storyboard */,
@@ -164,6 +157,7 @@
 				C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */,
 			);
 			name = Category;
+			path = ../DSCommon;
 			sourceTree = "<group>";
 		};
 		C6D703DA1C92ACA000F9375D /* BaseCalss */ = {
@@ -173,6 +167,7 @@
 				C678566F1C92B07100C88FF0 /* DSBaseViewController.m */,
 			);
 			name = BaseCalss;
+			path = ../DSCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +268,6 @@
 				C685CE1E1CA2D94300101DBD /* NSString+DSPredicate.m in Sources */,
 				C685CE1D1CA2D94300101DBD /* NSString+DSEncrypt.m in Sources */,
 				C685CE1A1CA2D94300101DBD /* UIColor+DSHexColor.m in Sources */,
-				C685CE141CA2D92E00101DBD /* SincereCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -450,6 +444,7 @@
 				C685CE161CA2D92E00101DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6D703BA1C92AC0200F9375D /* Build configuration list for PBXProject "DSCommon" */ = {
 			isa = XCConfigurationList;
