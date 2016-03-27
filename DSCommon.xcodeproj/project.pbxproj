@@ -88,7 +88,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C685CE101CA2D92E00101DBD /* SincereCommon */ = {
+		C685CE101CA2D92E00101DBD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				C67856771C92BD9B00C88FF0 /* DSCommon.h */,
@@ -107,14 +107,14 @@
 				C6EB46AA1CA2D052002D9D50 /* NSString+DSPredicate.h */,
 				C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */,
 			);
-			path = SincereCommon;
+			name = Classes;
+			path = ../SincereCommon;
 			sourceTree = "<group>";
 		};
 		C6D703B61C92AC0200F9375D = {
 			isa = PBXGroup;
 			children = (
 				C6D703C11C92AC0200F9375D /* DSCommon */,
-				C685CE101CA2D92E00101DBD /* SincereCommon */,
 				C6D703C01C92AC0200F9375D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,6 +131,7 @@
 		C6D703C11C92AC0200F9375D /* DSCommon */ = {
 			isa = PBXGroup;
 			children = (
+				C685CE101CA2D92E00101DBD /* Classes */,
 				C6D703C51C92AC0200F9375D /* AppDelegate.h */,
 				C6D703C61C92AC0200F9375D /* AppDelegate.m */,
 				C6D703C81C92AC0200F9375D /* ViewController.h */,
