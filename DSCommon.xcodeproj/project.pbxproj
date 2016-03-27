@@ -42,15 +42,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C63ED6121C98137700990BA5 /* DSDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDevice.h; sourceTree = "<group>"; };
-		C63ED6131C98137700990BA5 /* DSDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDevice.m; sourceTree = "<group>"; };
-		C678566E1C92B07100C88FF0 /* DSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseViewController.h; sourceTree = "<group>"; };
-		C678566F1C92B07100C88FF0 /* DSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseViewController.m; sourceTree = "<group>"; };
-		C67856711C92B9DE00C88FF0 /* UIScreen+DSScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+DSScreenSize.h"; sourceTree = "<group>"; };
-		C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+DSScreenSize.m"; sourceTree = "<group>"; };
-		C67856741C92BAD700C88FF0 /* NSString+DSEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSEncrypt.h"; sourceTree = "<group>"; };
-		C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSEncrypt.m"; sourceTree = "<group>"; };
-		C67856771C92BD9B00C88FF0 /* DSCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCommon.h; sourceTree = "<group>"; };
+		C63ED6121C98137700990BA5 /* DSDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSDevice.h; path = ../DSCommon/DSDevice.h; sourceTree = "<group>"; };
+		C63ED6131C98137700990BA5 /* DSDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSDevice.m; path = ../DSCommon/DSDevice.m; sourceTree = "<group>"; };
+		C678566E1C92B07100C88FF0 /* DSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSBaseViewController.h; path = ../DSCommon/DSBaseViewController.h; sourceTree = "<group>"; };
+		C678566F1C92B07100C88FF0 /* DSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSBaseViewController.m; path = ../DSCommon/DSBaseViewController.m; sourceTree = "<group>"; };
+		C67856711C92B9DE00C88FF0 /* UIScreen+DSScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+DSScreenSize.h"; path = "../DSCommon/UIScreen+DSScreenSize.h"; sourceTree = "<group>"; };
+		C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+DSScreenSize.m"; path = "../DSCommon/UIScreen+DSScreenSize.m"; sourceTree = "<group>"; };
+		C67856741C92BAD700C88FF0 /* NSString+DSEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DSEncrypt.h"; path = "../DSCommon/NSString+DSEncrypt.h"; sourceTree = "<group>"; };
+		C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DSEncrypt.m"; path = "../DSCommon/NSString+DSEncrypt.m"; sourceTree = "<group>"; };
+		C67856771C92BD9B00C88FF0 /* DSCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSCommon.h; path = ../DSCommon/DSCommon.h; sourceTree = "<group>"; };
 		C685CE0F1CA2D92E00101DBD /* libSincereCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSincereCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703C31C92AC0200F9375D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,12 +62,12 @@
 		C6D703CE1C92AC0200F9375D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6D703D11C92AC0300F9375D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6D703D31C92AC0300F9375D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6D703DB1C92ACD500F9375D /* UIColor+DSHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DSHexColor.h"; sourceTree = "<group>"; };
-		C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DSHexColor.m"; sourceTree = "<group>"; };
-		C6D703DE1C92ACF200F9375D /* UIView+DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DSCapture.h"; sourceTree = "<group>"; };
-		C6D703DF1C92ACF200F9375D /* UIView+DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DSCapture.m"; sourceTree = "<group>"; };
-		C6EB46AA1CA2D052002D9D50 /* NSString+DSPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSPredicate.h"; sourceTree = "<group>"; };
-		C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSPredicate.m"; sourceTree = "<group>"; };
+		C6D703DB1C92ACD500F9375D /* UIColor+DSHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+DSHexColor.h"; path = "../DSCommon/UIColor+DSHexColor.h"; sourceTree = "<group>"; };
+		C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DSHexColor.m"; path = "../DSCommon/UIColor+DSHexColor.m"; sourceTree = "<group>"; };
+		C6D703DE1C92ACF200F9375D /* UIView+DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DSCapture.h"; path = "../DSCommon/UIView+DSCapture.h"; sourceTree = "<group>"; };
+		C6D703DF1C92ACF200F9375D /* UIView+DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DSCapture.m"; path = "../DSCommon/UIView+DSCapture.m"; sourceTree = "<group>"; };
+		C6EB46AA1CA2D052002D9D50 /* NSString+DSPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DSPredicate.h"; path = "../DSCommon/NSString+DSPredicate.h"; sourceTree = "<group>"; };
+		C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DSPredicate.m"; path = "../DSCommon/NSString+DSPredicate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +91,21 @@
 		C685CE101CA2D92E00101DBD /* SincereCommon */ = {
 			isa = PBXGroup;
 			children = (
-				C6D703DA1C92ACA000F9375D /* BaseCalss */,
-				C6D703D91C92AC9800F9375D /* Category */,
+				C67856771C92BD9B00C88FF0 /* DSCommon.h */,
+				C678566E1C92B07100C88FF0 /* DSBaseViewController.h */,
+				C678566F1C92B07100C88FF0 /* DSBaseViewController.m */,
+				C63ED6121C98137700990BA5 /* DSDevice.h */,
+				C63ED6131C98137700990BA5 /* DSDevice.m */,
+				C6D703DB1C92ACD500F9375D /* UIColor+DSHexColor.h */,
+				C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */,
+				C6D703DE1C92ACF200F9375D /* UIView+DSCapture.h */,
+				C6D703DF1C92ACF200F9375D /* UIView+DSCapture.m */,
+				C67856711C92B9DE00C88FF0 /* UIScreen+DSScreenSize.h */,
+				C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */,
+				C67856741C92BAD700C88FF0 /* NSString+DSEncrypt.h */,
+				C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */,
+				C6EB46AA1CA2D052002D9D50 /* NSString+DSPredicate.h */,
+				C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */,
 			);
 			path = SincereCommon;
 			sourceTree = "<group>";
@@ -137,37 +150,6 @@
 				C6D703C31C92AC0200F9375D /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C6D703D91C92AC9800F9375D /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				C67856771C92BD9B00C88FF0 /* DSCommon.h */,
-				C63ED6121C98137700990BA5 /* DSDevice.h */,
-				C63ED6131C98137700990BA5 /* DSDevice.m */,
-				C6D703DB1C92ACD500F9375D /* UIColor+DSHexColor.h */,
-				C6D703DC1C92ACD500F9375D /* UIColor+DSHexColor.m */,
-				C6D703DE1C92ACF200F9375D /* UIView+DSCapture.h */,
-				C6D703DF1C92ACF200F9375D /* UIView+DSCapture.m */,
-				C67856711C92B9DE00C88FF0 /* UIScreen+DSScreenSize.h */,
-				C67856721C92B9DE00C88FF0 /* UIScreen+DSScreenSize.m */,
-				C67856741C92BAD700C88FF0 /* NSString+DSEncrypt.h */,
-				C67856751C92BAD700C88FF0 /* NSString+DSEncrypt.m */,
-				C6EB46AA1CA2D052002D9D50 /* NSString+DSPredicate.h */,
-				C6EB46AB1CA2D052002D9D50 /* NSString+DSPredicate.m */,
-			);
-			name = Category;
-			path = ../DSCommon;
-			sourceTree = "<group>";
-		};
-		C6D703DA1C92ACA000F9375D /* BaseCalss */ = {
-			isa = PBXGroup;
-			children = (
-				C678566E1C92B07100C88FF0 /* DSBaseViewController.h */,
-				C678566F1C92B07100C88FF0 /* DSBaseViewController.m */,
-			);
-			name = BaseCalss;
-			path = ../DSCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
