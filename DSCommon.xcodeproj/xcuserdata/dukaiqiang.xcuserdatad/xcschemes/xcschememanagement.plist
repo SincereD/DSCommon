@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>SincereCommon.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SincereFrameWork.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -33,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>C6F666DD1CA7BE04000478C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6F666F21CA7BEFB000478C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

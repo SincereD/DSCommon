@@ -27,7 +27,27 @@
 		C6F666EB1CA7BE23000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
 		C6F666EC1CA7BE23000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
 		C6F666ED1CA7BE23000478C7 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */; };
+		C6F666F61CA7BEFB000478C7 /* SincereFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666F51CA7BEFB000478C7 /* SincereFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F666FA1CA7BEFB000478C7 /* SincereFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */; };
+		C6F666FB1CA7BEFB000478C7 /* SincereFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6F667001CA7BF0D000478C7 /* DSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B41CA7BBE5000478C7 /* DSDevice.m */; };
+		C6F667011CA7BF0D000478C7 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */; };
+		C6F667021CA7BF0D000478C7 /* NSString+DSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */; };
+		C6F667031CA7BF0D000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
+		C6F667041CA7BF0D000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
+		C6F667051CA7BF0D000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
+		C6F667061CA7BF0D000478C7 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6F666F81CA7BEFB000478C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D703B71C92AC0200F9375D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F666F21CA7BEFB000478C7;
+			remoteInfo = SincereFrameWork;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C6F666DC1CA7BE04000478C7 /* CopyFiles */ = {
@@ -37,6 +57,17 @@
 			dstSubfolderSpec = 16;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F666FF1CA7BEFB000478C7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C6F666FB1CA7BEFB000478C7 /* SincereFrameWork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -68,6 +99,9 @@
 		C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DSCapture.h"; path = "DSCommon/UIView+DSCapture.h"; sourceTree = "<group>"; };
 		C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DSCapture.m"; path = "DSCommon/UIView+DSCapture.m"; sourceTree = "<group>"; };
 		C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSIncereCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SincereFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F666F51CA7BEFB000478C7 /* SincereFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SincereFrameWork.h; sourceTree = "<group>"; };
+		C6F666F71CA7BEFB000478C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +109,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F666FA1CA7BEFB000478C7 /* SincereFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C6F666DB1CA7BE04000478C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F666EF1CA7BEFB000478C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,6 +136,7 @@
 				C6F666AD1CA7BB8D000478C7 /* Classes */,
 				C6D703C11C92AC0200F9375D /* DSCommon */,
 				C6F666DF1CA7BE04000478C7 /* SIncereCommon */,
+				C6F666F41CA7BEFB000478C7 /* SincereFrameWork */,
 				C6D703C01C92AC0200F9375D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +146,7 @@
 			children = (
 				C6D703BF1C92AC0200F9375D /* DSCommon.app */,
 				C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */,
+				C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,7 +204,27 @@
 			path = SIncereCommon;
 			sourceTree = "<group>";
 		};
+		C6F666F41CA7BEFB000478C7 /* SincereFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				C6F666F51CA7BEFB000478C7 /* SincereFrameWork.h */,
+				C6F666F71CA7BEFB000478C7 /* Info.plist */,
+			);
+			path = SincereFrameWork;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C6F666F01CA7BEFB000478C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F666F61CA7BEFB000478C7 /* SincereFrameWork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C6D703BE1C92AC0200F9375D /* DSCommon */ = {
@@ -170,10 +234,12 @@
 				C6D703BB1C92AC0200F9375D /* Sources */,
 				C6D703BC1C92AC0200F9375D /* Frameworks */,
 				C6D703BD1C92AC0200F9375D /* Resources */,
+				C6F666FF1CA7BEFB000478C7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C6F666F91CA7BEFB000478C7 /* PBXTargetDependency */,
 			);
 			name = DSCommon;
 			productName = DSCommon;
@@ -197,6 +263,24 @@
 			productReference = C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		C6F666F21CA7BEFB000478C7 /* SincereFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F666FE1CA7BEFB000478C7 /* Build configuration list for PBXNativeTarget "SincereFrameWork" */;
+			buildPhases = (
+				C6F666EE1CA7BEFB000478C7 /* Sources */,
+				C6F666EF1CA7BEFB000478C7 /* Frameworks */,
+				C6F666F01CA7BEFB000478C7 /* Headers */,
+				C6F666F11CA7BEFB000478C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SincereFrameWork;
+			productName = SincereFrameWork;
+			productReference = C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +294,9 @@
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					C6F666DD1CA7BE04000478C7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C6F666F21CA7BEFB000478C7 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -229,6 +316,7 @@
 			targets = (
 				C6D703BE1C92AC0200F9375D /* DSCommon */,
 				C6F666DD1CA7BE04000478C7 /* SIncereCommon */,
+				C6F666F21CA7BEFB000478C7 /* SincereFrameWork */,
 			);
 		};
 /* End PBXProject section */
@@ -241,6 +329,13 @@
 				C6D703D21C92AC0300F9375D /* LaunchScreen.storyboard in Resources */,
 				C6D703CF1C92AC0200F9375D /* Assets.xcassets in Resources */,
 				C6D703CD1C92AC0200F9375D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F666F11CA7BEFB000478C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +373,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6F666EE1CA7BEFB000478C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F667011CA7BF0D000478C7 /* NSString+DSEncrypt.m in Sources */,
+				C6F667041CA7BF0D000478C7 /* UIScreen+DSScreenSize.m in Sources */,
+				C6F667051CA7BF0D000478C7 /* UIView+DSCapture.m in Sources */,
+				C6F667001CA7BF0D000478C7 /* DSDevice.m in Sources */,
+				C6F667061CA7BF0D000478C7 /* DSBaseViewController.m in Sources */,
+				C6F667031CA7BF0D000478C7 /* UIColor+DSHexColor.m in Sources */,
+				C6F667021CA7BF0D000478C7 /* NSString+DSPredicate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6F666F91CA7BEFB000478C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F666F21CA7BEFB000478C7 /* SincereFrameWork */;
+			targetProxy = C6F666F81CA7BEFB000478C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C6D703CB1C92AC0200F9375D /* Main.storyboard */ = {
@@ -424,6 +541,50 @@
 			};
 			name = Release;
 		};
+		C6F666FC1CA7BEFB000478C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SincereFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellfun.SincereFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6F666FD1CA7BEFB000478C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SincereFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellfun.SincereFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -450,6 +611,15 @@
 			buildConfigurations = (
 				C6F666E51CA7BE04000478C7 /* Debug */,
 				C6F666E61CA7BE04000478C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F666FE1CA7BEFB000478C7 /* Build configuration list for PBXNativeTarget "SincereFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F666FC1CA7BEFB000478C7 /* Debug */,
+				C6F666FD1CA7BEFB000478C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
