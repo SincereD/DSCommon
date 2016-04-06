@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C638C2401CB53FB5000B452C /* NSString+URLString.m in Sources */ = {isa = PBXBuildFile; fileRef = C638C23F1CB53FB5000B452C /* NSString+URLString.m */; };
 		C6D703C41C92AC0200F9375D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C31C92AC0200F9375D /* main.m */; };
 		C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C61C92AC0200F9375D /* AppDelegate.m */; };
 		C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C91C92AC0200F9375D /* ViewController.m */; };
@@ -73,6 +74,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C638C23E1CB53FB5000B452C /* NSString+URLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLString.h"; sourceTree = "<group>"; };
+		C638C23F1CB53FB5000B452C /* NSString+URLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLString.m"; sourceTree = "<group>"; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703C31C92AC0200F9375D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6D703C51C92AC0200F9375D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -181,6 +184,8 @@
 				C6F666B01CA7BBBD000478C7 /* DSCommon.h */,
 				C6F666B11CA7BBBD000478C7 /* DSDevice.h */,
 				C6F666B41CA7BBE5000478C7 /* DSDevice.m */,
+				C638C23E1CB53FB5000B452C /* NSString+URLString.h */,
+				C638C23F1CB53FB5000B452C /* NSString+URLString.m */,
 				C6F666B51CA7BBE5000478C7 /* NSString+DSEncrypt.h */,
 				C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */,
 				C6F666B71CA7BBE5000478C7 /* NSString+DSPredicate.h */,
@@ -356,6 +361,7 @@
 				C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */,
 				C6F666C31CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */,
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
+				C638C2401CB53FB5000B452C /* NSString+URLString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +628,7 @@
 				C6F666FD1CA7BEFB000478C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

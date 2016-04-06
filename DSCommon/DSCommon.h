@@ -16,5 +16,6 @@
 #import "UIScreen+DSScreenSize.h"
 #import "NSString+DSEncrypt.h"
 #import "NSString+DSPredicate.h"
+#import "NSString+URLString.h"
 
 #endif /* DSCommon_h */
