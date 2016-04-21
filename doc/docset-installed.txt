@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/dukaiqiang/Library/Developer/Shared/Documentation/DocSets/com.yellfun.dscommon.DSCommon.docset
+Time: 2016-04-20 07:14:41 +0000
