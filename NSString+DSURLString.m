@@ -6,10 +6,15 @@
 //  Copyright © 2016年 Sincere. All rights reserved.
 //
 
-#import "NSString+URLString.h"
+#import "NSString+DSURLString.h"
 
-@implementation NSString (URLString)
+@implementation NSString (DSURLString)
 
+/**
+ *  URL编码
+ *
+ *  @return NSString
+ */
 - (NSString*)URLTranslate
 {
     NSString * newSelf = @"";

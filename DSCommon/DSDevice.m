@@ -10,17 +10,42 @@
 
 @implementation DSDevice
 
-- (NSDictionary*)deviceInfo
+/**
+ *  App信息
+ *
+ *  @return NSString
+ */
++ (NSDictionary*)deviceInfo
 {
     return [[NSBundle mainBundle] infoDictionary];
 }
 
-- (NSString*)appVersion
+/**
+ *  App版本号
+ *
+ *  @return NSString
+ */
++ (NSString*)appVersion
 {
     return [[self deviceInfo] objectForKey:@"CFBundleShortVersionString"];
 }
 
-- (NSString*)appName
+/**
+ *  AppBuid号
+ *
+ *  @return NSString
+ */
++ (NSString*)appBuild
+{
+    return [[self deviceInfo] objectForKey:@"CFBundleVersion"];
+}
+
+/**
+ *  App显示名称
+ *
+ *  @return NSString
+ */
++ (NSString*)appName
 {
     return [[self deviceInfo] objectForKey:@"CFBundleDisplayName"];
 }

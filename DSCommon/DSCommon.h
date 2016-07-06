@@ -11,11 +11,20 @@
 
 #import "DSBaseViewController.h"
 
-#import "UIColor+DSHexColor.h"
-#import "UIView+DSCapture.h"
+#import "DSDevice.h"
+
 #import "UIScreen+DSScreenSize.h"
+
 #import "NSString+DSEncrypt.h"
 #import "NSString+DSPredicate.h"
-#import "NSString+URLString.h"
+#import "NSString+DSURLString.h"
+
+#import "UIColor+DSHexColor.h"
+
+#import "UIImage+DSColorImage.h"
+#import "UIImage+DSImageColor.h"
+
+#import "UIView+DSCapture.h"
+
 
 #endif /* DSCommon_h */

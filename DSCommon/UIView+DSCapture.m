@@ -10,6 +10,11 @@
 
 @implementation UIView (DSCapture)
 
+/**
+ *  截取UIView完整图片
+ *
+ *  @return 图片返回值
+ */
 - (UIImage*)capture
 {
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, 0.0);
@@ -20,6 +25,13 @@
     return theImage;
 }
 
+/**
+ *  截取UIView对应区域图片
+ *
+ *  @param rect 图片位置
+ *
+ *  @return 图片返回值
+ */
 - (UIImage*)captureWithRect:(CGRect)rect
 {
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, 0.0);

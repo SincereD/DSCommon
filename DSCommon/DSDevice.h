@@ -13,6 +13,26 @@
  */
 @interface DSDevice : NSObject
 
-- (NSString*)appVersion;
+/**
+ *  App版本号
+ *
+ *  @return NSString
+ */
++ (NSString*)appVersion;
+
+/**
+ *  AppBuid号
+ *
+ *  @return NSString
+ */
++ (NSString*)appBuild;
+
+/**
+ *  App显示名称
+ *
+ *  @return NSString
+ */
++ (NSString*)appName;
+
 
 @end

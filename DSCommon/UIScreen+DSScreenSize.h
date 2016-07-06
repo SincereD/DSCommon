@@ -8,10 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  屏幕类别
+ */
 @interface UIScreen (DSScreenSize)
 
+/**
+ *  屏幕宽度
+ *
+ *  @return CGFloat
+ */
 + (CGFloat)screenWidth;
 
+/**
+ *  屏幕高度
+ *
+ *  @return CGFloat
+ */
 + (CGFloat)screenHeight;
 
 @end

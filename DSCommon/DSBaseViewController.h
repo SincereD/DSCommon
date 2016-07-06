@@ -13,11 +13,25 @@
  */
 @interface DSBaseViewController : UIViewController
 
+/**
+ *  获取右侧导航控件
+ *
+ *  @return UIBarButtonItem
+ */
 - (UIBarButtonItem*)rightBarButtonItem;
 
+/**
+ *  获取左侧导航控件
+ *
+ *  @return UIBarButtonItem
+ */
 - (UIBarButtonItem*)leftBarButtonItem;
 
+/**
+ *  UITabBar
+ *
+ *  @return UITabBar
+ */
 - (UITabBar*)tabBar;
-
 
 @end

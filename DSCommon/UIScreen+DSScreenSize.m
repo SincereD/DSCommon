@@ -10,11 +10,21 @@
 
 @implementation UIScreen (DSScreenSize)
 
+/**
+ *  屏幕宽度
+ *
+ *  @return CGFloat
+ */
 + (CGFloat)screenWidth
 {
     return [self mainScreen].bounds.size.width;
 }
 
+/**
+ *  屏幕高度
+ *
+ *  @return CGFloat
+ */
 + (CGFloat)screenHeight
 {
     return [self mainScreen].bounds.size.height;

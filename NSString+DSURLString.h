@@ -8,8 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (URLString)
+/**
+ *  URL编码
+ */
+@interface NSString (DSURLString)
 
+/**
+ *  URL编码
+ *
+ *  @return NSString
+ */
 - (NSString*)URLTranslate;
 
 @end
