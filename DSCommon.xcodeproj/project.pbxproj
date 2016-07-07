@@ -9,22 +9,25 @@
 /* Begin PBXBuildFile section */
 		C62360871D2CDF4500C15191 /* UIImage+DSImageColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C62360851D2CDF4500C15191 /* UIImage+DSImageColor.h */; };
 		C62360881D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */; };
-		C62360891D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */; };
-		C623608A1D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */; };
+		C623608D1D2CE16F00C15191 /* NSMutableArray+DSSort.h in Headers */ = {isa = PBXBuildFile; fileRef = C623608B1D2CE16F00C15191 /* NSMutableArray+DSSort.h */; };
+		C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */ = {isa = PBXBuildFile; fileRef = C623608C1D2CE16F00C15191 /* NSMutableArray+DSSort.m */; };
 		C627F8511D2CB69A00210620 /* UIImage+DSColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */; };
 		C627F8521D2CCAE000210620 /* DSCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B01CA7BBBD000478C7 /* DSCommon.h */; };
 		C627F8531D2CCAE800210620 /* DSDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B11CA7BBBD000478C7 /* DSDevice.h */; };
 		C627F8541D2CCAE800210620 /* NSString+DSURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */; };
-		C627F8551D2CCAE800210620 /* NSString+DSURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */; };
 		C627F8561D2CCAE800210620 /* NSString+DSEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B51CA7BBE5000478C7 /* NSString+DSEncrypt.h */; };
 		C627F8571D2CCAE800210620 /* NSString+DSPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B71CA7BBE5000478C7 /* NSString+DSPredicate.h */; };
 		C627F8581D2CCAE800210620 /* UIColor+DSHexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B91CA7BBE5000478C7 /* UIColor+DSHexColor.h */; };
 		C627F8591D2CCAE800210620 /* UIImage+DSColorImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */; };
-		C627F85A1D2CCAE800210620 /* UIImage+DSColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */; };
 		C627F85B1D2CCAE800210620 /* UIScreen+DSScreenSize.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666BB1CA7BBE5000478C7 /* UIScreen+DSScreenSize.h */; };
 		C627F85C1D2CCAE800210620 /* UIView+DSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */; };
 		C627F85D1D2CCAE800210620 /* DSBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666AE1CA7BBBD000478C7 /* DSBaseViewController.h */; };
 		C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */; };
+		C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE161D2E096F00AFEB6F /* DSRequest.m */; };
+		C65CAE1A1D2E098400AFEB6F /* DSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C65CAE181D2E098400AFEB6F /* DSResponse.h */; };
+		C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE191D2E098400AFEB6F /* DSResponse.m */; };
+		C65CAE241D2E332B00AFEB6F /* DSHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C65CAE221D2E332B00AFEB6F /* DSHTTPRequest.h */; };
+		C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */; };
 		C6D703C41C92AC0200F9375D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C31C92AC0200F9375D /* main.m */; };
 		C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C61C92AC0200F9375D /* AppDelegate.m */; };
 		C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C91C92AC0200F9375D /* ViewController.m */; };
@@ -38,23 +41,10 @@
 		C6F666C51CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
 		C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
 		C6F666C91CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
-		C6F666E71CA7BE23000478C7 /* DSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B41CA7BBE5000478C7 /* DSDevice.m */; };
-		C6F666E81CA7BE23000478C7 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */; };
-		C6F666E91CA7BE23000478C7 /* NSString+DSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */; };
-		C6F666EA1CA7BE23000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
-		C6F666EB1CA7BE23000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
-		C6F666EC1CA7BE23000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
-		C6F666ED1CA7BE23000478C7 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */; };
 		C6F666F61CA7BEFB000478C7 /* SincereFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666F51CA7BEFB000478C7 /* SincereFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6F666FA1CA7BEFB000478C7 /* SincereFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */; };
 		C6F666FB1CA7BEFB000478C7 /* SincereFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C6F667001CA7BF0D000478C7 /* DSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B41CA7BBE5000478C7 /* DSDevice.m */; };
-		C6F667011CA7BF0D000478C7 /* NSString+DSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */; };
-		C6F667021CA7BF0D000478C7 /* NSString+DSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */; };
-		C6F667031CA7BF0D000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
-		C6F667041CA7BF0D000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
-		C6F667051CA7BF0D000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
-		C6F667061CA7BF0D000478C7 /* DSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */; };
+		FD19D96AFE98C3EDD2142D68 /* libPods-DSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,12 +81,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14A5BC22798E291B3F402D36 /* Pods-DSCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSCommon/Pods-DSCommon.debug.xcconfig"; sourceTree = "<group>"; };
 		C62360851D2CDF4500C15191 /* UIImage+DSImageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DSImageColor.h"; sourceTree = "<group>"; };
 		C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSImageColor.m"; sourceTree = "<group>"; };
+		C623608B1D2CE16F00C15191 /* NSMutableArray+DSSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DSSort.h"; sourceTree = "<group>"; };
+		C623608C1D2CE16F00C15191 /* NSMutableArray+DSSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DSSort.m"; sourceTree = "<group>"; };
+		C62360911D2CE7A500C15191 /* DSMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMacro.h; sourceTree = "<group>"; };
 		C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DSColorImage.h"; sourceTree = "<group>"; };
 		C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSColorImage.m"; sourceTree = "<group>"; };
 		C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSURLString.h"; sourceTree = "<group>"; };
 		C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSURLString.m"; sourceTree = "<group>"; };
+		C65CAE151D2E096F00AFEB6F /* DSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRequest.h; sourceTree = "<group>"; };
+		C65CAE161D2E096F00AFEB6F /* DSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRequest.m; sourceTree = "<group>"; };
+		C65CAE181D2E098400AFEB6F /* DSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSResponse.h; sourceTree = "<group>"; };
+		C65CAE191D2E098400AFEB6F /* DSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSResponse.m; sourceTree = "<group>"; };
+		C65CAE221D2E332B00AFEB6F /* DSHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHTTPRequest.h; sourceTree = "<group>"; };
+		C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHTTPRequest.m; sourceTree = "<group>"; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703C31C92AC0200F9375D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6D703C51C92AC0200F9375D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,6 +126,8 @@
 		C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SincereFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F666F51CA7BEFB000478C7 /* SincereFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SincereFrameWork.h; sourceTree = "<group>"; };
 		C6F666F71CA7BEFB000478C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DSCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFF888257D69539275FF56D /* Pods-DSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSCommon/Pods-DSCommon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6F666FA1CA7BEFB000478C7 /* SincereFrameWork.framework in Frameworks */,
+				FD19D96AFE98C3EDD2142D68 /* libPods-DSCommon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,14 +157,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0164DE844837C83459343703 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14A5BC22798E291B3F402D36 /* Pods-DSCommon.debug.xcconfig */,
+				FAFF888257D69539275FF56D /* Pods-DSCommon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B74DFFA9A70A6FADA1D69C2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65CAE281D2E333B00AFEB6F /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				C65CAE221D2E332B00AFEB6F /* DSHTTPRequest.h */,
+				C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */,
+				C65CAE151D2E096F00AFEB6F /* DSRequest.h */,
+				C65CAE161D2E096F00AFEB6F /* DSRequest.m */,
+				C65CAE181D2E098400AFEB6F /* DSResponse.h */,
+				C65CAE191D2E098400AFEB6F /* DSResponse.m */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
 		C6D703B61C92AC0200F9375D = {
 			isa = PBXGroup;
 			children = (
-				C6F666AD1CA7BB8D000478C7 /* Classes */,
 				C6D703C11C92AC0200F9375D /* DSCommon */,
 				C6F666DF1CA7BE04000478C7 /* SIncereCommon */,
 				C6F666F41CA7BEFB000478C7 /* SincereFrameWork */,
 				C6D703C01C92AC0200F9375D /* Products */,
+				0164DE844837C83459343703 /* Pods */,
+				B74DFFA9A70A6FADA1D69C2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +212,7 @@
 		C6D703C11C92AC0200F9375D /* DSCommon */ = {
 			isa = PBXGroup;
 			children = (
+				C6F666AD1CA7BB8D000478C7 /* Classes */,
 				C6D703C51C92AC0200F9375D /* AppDelegate.h */,
 				C6D703C61C92AC0200F9375D /* AppDelegate.m */,
 				C6D703C81C92AC0200F9375D /* ViewController.h */,
@@ -203,8 +238,10 @@
 			isa = PBXGroup;
 			children = (
 				C6F666B01CA7BBBD000478C7 /* DSCommon.h */,
+				C62360911D2CE7A500C15191 /* DSMacro.h */,
 				C6F666B11CA7BBBD000478C7 /* DSDevice.h */,
 				C6F666B41CA7BBE5000478C7 /* DSDevice.m */,
+				C65CAE281D2E333B00AFEB6F /* HTTP */,
 				C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */,
 				C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */,
 				C6F666B51CA7BBE5000478C7 /* NSString+DSEncrypt.h */,
@@ -223,8 +260,11 @@
 				C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */,
 				C6F666AE1CA7BBBD000478C7 /* DSBaseViewController.h */,
 				C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */,
+				C623608B1D2CE16F00C15191 /* NSMutableArray+DSSort.h */,
+				C623608C1D2CE16F00C15191 /* NSMutableArray+DSSort.m */,
 			);
 			name = Classes;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		C6F666DF1CA7BE04000478C7 /* SIncereCommon */ = {
@@ -250,12 +290,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65CAE1A1D2E098400AFEB6F /* DSResponse.h in Headers */,
 				C627F8541D2CCAE800210620 /* NSString+DSURLString.h in Headers */,
 				C627F8591D2CCAE800210620 /* UIImage+DSColorImage.h in Headers */,
 				C627F8571D2CCAE800210620 /* NSString+DSPredicate.h in Headers */,
 				C627F85B1D2CCAE800210620 /* UIScreen+DSScreenSize.h in Headers */,
+				C65CAE241D2E332B00AFEB6F /* DSHTTPRequest.h in Headers */,
 				C627F8531D2CCAE800210620 /* DSDevice.h in Headers */,
 				C627F85C1D2CCAE800210620 /* UIView+DSCapture.h in Headers */,
+				C623608D1D2CE16F00C15191 /* NSMutableArray+DSSort.h in Headers */,
 				C627F85D1D2CCAE800210620 /* DSBaseViewController.h in Headers */,
 				C627F8581D2CCAE800210620 /* UIColor+DSHexColor.h in Headers */,
 				C627F8521D2CCAE000210620 /* DSCommon.h in Headers */,
@@ -272,10 +315,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6D703D61C92AC0300F9375D /* Build configuration list for PBXNativeTarget "DSCommon" */;
 			buildPhases = (
+				C437176B522794C058D78DD3 /* 📦 Check Pods Manifest.lock */,
 				C6D703BB1C92AC0200F9375D /* Sources */,
 				C6D703BC1C92AC0200F9375D /* Frameworks */,
 				C6D703BD1C92AC0200F9375D /* Resources */,
 				C6F666FF1CA7BEFB000478C7 /* Embed Frameworks */,
+				5A3325951BFB28B69D635CF0 /* 📦 Embed Pods Frameworks */,
+				3DBFFD96A2355126BCE6D76E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -382,24 +428,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DBFFD96A2355126BCE6D76E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSCommon/Pods-DSCommon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3325951BFB28B69D635CF0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSCommon/Pods-DSCommon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C437176B522794C058D78DD3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6D703BB1C92AC0200F9375D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */,
 				C6F666C91CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */,
 				C6F666C11CA7BBE5000478C7 /* NSString+DSEncrypt.m in Sources */,
 				C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */,
 				C6F666C51CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */,
 				C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */,
 				C6F666B21CA7BBBD000478C7 /* DSBaseViewController.m in Sources */,
+				C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */,
 				C627F8511D2CB69A00210620 /* UIImage+DSColorImage.m in Sources */,
 				C6F666BF1CA7BBE5000478C7 /* DSDevice.m in Sources */,
 				C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */,
 				C6F666C31CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */,
 				C62360881D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */,
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
+				C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */,
 				C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */,
+				C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,14 +505,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F666E81CA7BE23000478C7 /* NSString+DSEncrypt.m in Sources */,
-				C6F666EB1CA7BE23000478C7 /* UIScreen+DSScreenSize.m in Sources */,
-				C6F666EC1CA7BE23000478C7 /* UIView+DSCapture.m in Sources */,
-				C6F666E71CA7BE23000478C7 /* DSDevice.m in Sources */,
-				C6F666ED1CA7BE23000478C7 /* DSBaseViewController.m in Sources */,
-				C6F666EA1CA7BE23000478C7 /* UIColor+DSHexColor.m in Sources */,
-				C62360891D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */,
-				C6F666E91CA7BE23000478C7 /* NSString+DSPredicate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,16 +512,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F667011CA7BF0D000478C7 /* NSString+DSEncrypt.m in Sources */,
-				C6F667041CA7BF0D000478C7 /* UIScreen+DSScreenSize.m in Sources */,
-				C6F667051CA7BF0D000478C7 /* UIView+DSCapture.m in Sources */,
-				C6F667001CA7BF0D000478C7 /* DSDevice.m in Sources */,
-				C6F667061CA7BF0D000478C7 /* DSBaseViewController.m in Sources */,
-				C627F8551D2CCAE800210620 /* NSString+DSURLString.m in Sources */,
-				C623608A1D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */,
-				C627F85A1D2CCAE800210620 /* UIImage+DSColorImage.m in Sources */,
-				C6F667031CA7BF0D000478C7 /* UIColor+DSHexColor.m in Sources */,
-				C6F667021CA7BF0D000478C7 /* NSString+DSPredicate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,23 +627,37 @@
 		};
 		C6D703D71C92AC0300F9375D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A5BC22798E291B3F402D36 /* Pods-DSCommon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
 				INFOPLIST_FILE = DSCommon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yellfun.DSCommon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(PODS_ROOT)\"/**";
 			};
 			name = Debug;
 		};
 		C6D703D81C92AC0300F9375D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFF888257D69539275FF56D /* Pods-DSCommon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
 				INFOPLIST_FILE = DSCommon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yellfun.DSCommon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(PODS_ROOT)\"/**";
 			};
 			name = Release;
 		};

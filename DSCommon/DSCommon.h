@@ -11,6 +11,8 @@
 
 #import "DSBaseViewController.h"
 
+#import "DSMaccro.h"
+
 #import "DSDevice.h"
 
 #import "UIScreen+DSScreenSize.h"

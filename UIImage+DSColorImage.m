@@ -10,6 +10,13 @@
 
 @implementation UIImage (DSColorImage)
 
+/**
+ *  根据色值生成UIImage
+ *
+ *  @param color UIColor
+ *
+ *  @return UIImage
+ */
 - (UIImage *)imageFromColor:(UIColor *)color
 {
     CGRect rect = CGRectMake(0, 0, 1, 1);

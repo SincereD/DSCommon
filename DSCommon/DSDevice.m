@@ -7,6 +7,7 @@
 //
 
 #import "DSDevice.h"
+#import "UIScreen+DSScreenSize.h"
 
 @implementation DSDevice
 
@@ -18,6 +19,16 @@
 + (NSDictionary*)deviceInfo
 {
     return [[NSBundle mainBundle] infoDictionary];
+}
+
+/**
+ *  操作系统版本号
+ *
+ *  @return NSString
+ */
++ (NSString*)systemVersion
+{
+    return [[self deviceInfo] objectForKey:@"CFBundleShortVersionString"];
 }
 
 /**
@@ -48,6 +59,30 @@
 + (NSString*)appName
 {
     return [[self deviceInfo] objectForKey:@"CFBundleDisplayName"];
+}
+
+/**
+ *  获取手机型号（iPhone4 iPhone5 iPhone6 iPhone6Plus）
+ *
+ *  @return DSPhoneType
+ */
++ (DSPhoneType)phoneType
+{
+    if ([UIScreen screenHeight] == 480)
+    {
+        return DSPhoneType4;
+    }else if ([UIScreen screenHeight] == 568)
+    {
+        return DSPhoneType5;
+    }
+    else if ([UIScreen screenHeight] == 667)
+    {
+        return DSPhoneType6;
+    }
+    else
+    {
+        return DSPhoneType6Plus;
+    }
 }
 
 @end
