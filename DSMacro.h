@@ -31,6 +31,10 @@
 #define kFloatToString(float)   [NSString stringWithFormat:@"%.0f",float]
 #define kObjToString(obj)       [NSString stringWithFormat:@"%@",obj]
 
+//RGB色值
+#define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r, g, b) RGBA(r,g,b,1.0f)
+
 //单例快捷操作
 #define DEFINE_SINGLETON_FOR_HEADER(className) \
 \
@@ -54,7 +58,8 @@ return shared##className; \
  *
  *  @return 返回结果
  */
-static inline BOOL DSIsObjNull(id obj){
+static inline BOOL DSIsObjNull(id obj)
+{
     return obj == nil ||
     ([obj isEqual:[NSNull null]]) ||
     ([obj respondsToSelector:@selector(length)] && [(NSData *)obj length] == 0) ||
@@ -68,21 +73,26 @@ static inline BOOL DSIsObjNull(id obj){
  *
  *  @return 返回结果
  */
-static inline BOOL DSIsStringNull(NSString *string){
+static inline BOOL DSIsStringNull(NSString *string)
+{
     
-    if (string == nil) {
+    if (string == nil)
+    {
         return YES;
     }
     
-    if (string.length == 0) {
+    if (string.length == 0)
+    {
         return YES;
     }
     
-    if ([string isEqualToString:@"<null>"]) {
+    if ([string isEqualToString:@"<null>"])
+    {
         return YES;
     }
     
-    if ([string isEqualToString:@"(null)"]) {
+    if ([string isEqualToString:@"(null)"])
+    {
         return YES;
     }
     

@@ -7,6 +7,7 @@
 //
 
 #import "DSRequest.h"
+#import "JSONKit.h"
 
 @interface DSRequest ()
 {
@@ -51,9 +52,13 @@
 
 }
 
+/**
+ *  取消请求
+ */
 - (void)cancelRequest
 {
-    
+    self.isManualCancel = YES;
+    [sessionManager.operationQueue cancelAllOperations];
 }
 
 - (void)processSucessBlockwithOperation:(AFHTTPSessionManager *)manager
@@ -66,25 +71,27 @@
     NSMutableDictionary *responseData = [NSMutableDictionary dictionary];
     
     @try {
-//        [responseData addEntriesFromDictionary:[responseObject  objectFromJSONData]];
+        [responseData addEntriesFromDictionary:[responseObject  objectFromJSONData]];
     }
     @catch (NSException *exception) {
         
     }
     
     DSResponse *response = [[DSResponse alloc] init];
-//    response.responseName = [NSString stringWithFormat:@"%@响应",self.requestName];
-//    response.resultJsonStr = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
-//    [response loadResultData:responseData];
+    response.responseName = [NSString stringWithFormat:@"%@响应",self.requestName];
+    response.resultJsonStr = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+    [response loadResultData:responseData];
     
     NSLog(@"%@",response);
     
-//    if (response.isSuccess == YES) {
-//        sucessBlock(self,response);
-//        
-//    }else{
-//        failedBlock(self,response);
-//    }
+    if (response.isSuccess == YES)
+    {
+        sucessBlock(self,response);
+    }
+    else
+    {
+        failedBlock(self,response);
+    }
 }
 
 - (void)processFailureBlockwithOperation:(AFHTTPSessionManager *)operation
@@ -92,16 +99,21 @@
                          withFailedBlock:(DSRequestCompletedBlock )failedBlock{
     
     DSResponse *response = [[DSResponse alloc] init];
-//    response.responseName = [NSString stringWithFormat:@"%@响应",self.requestName];
-//    response.errorMsg = REQUEST_FAILE;
-//    
-//    NSLog(@"%@",error);
+    response.responseName = [NSString stringWithFormat:@"%@响应",self.requestName];
+    response.errorMsg = Request_Fail;
     
-    //手动取消的不弹出错误
-//    if (self.isManualCancel == NO) {
-//    }else{
-//    }
-//    
+    NSLog(@"%@",error);
+    
+    //手动取消请求 不进行报错
+    if (self.isManualCancel == NO)
+    {
+        
+    }
+    else
+    {
+        
+    }
+    
     failedBlock(self,response);
     
 }

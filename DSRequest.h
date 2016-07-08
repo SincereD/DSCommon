@@ -13,9 +13,9 @@
 
 #define RequestTimeOut      10
 
-#define DATA_FORMAT_ERROR   @"数据格式错误"
-#define NETWORK_UNABLE      @"网络状况异常"
-#define REQUEST_FAILE       @"网络请求失败"
+#define Data_Format_Error   @"数据格式错误"
+#define Network_Unable      @"网络状况异常"
+#define Request_Fail        @"网络请求失败"
 
 @class DSRequest;
 
@@ -23,6 +23,9 @@
 typedef void(^DSRequestCompletedBlock)(DSRequest *request, DSResponse *response);
 #endif
 
+/**
+ *  DSRequest HTTP网络请求
+ */
 @interface DSRequest : NSObject
 
 @property (nonatomic, assign) BOOL isHideSp;
@@ -32,10 +35,18 @@ typedef void(^DSRequestCompletedBlock)(DSRequest *request, DSResponse *response)
 @property (nonatomic, strong) NSMutableDictionary *params;
 @property (nonatomic, strong) NSMutableURLRequest *urlRequest;
 
-
+/**
+ *  启动请求
+ *
+ *  @param sucessBlock 成功
+ *  @param failedBlock 失败
+ */
 - (void)startRequestWithSucessBlock:(DSRequestCompletedBlock )sucessBlock
                         FailedBlock:(DSRequestCompletedBlock )failedBlock;
 
+/**
+ *  取消请求
+ */
 - (void)cancelRequest;
 
 @end

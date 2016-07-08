@@ -11,24 +11,26 @@
 
 @implementation DSResponse
 
--(id)initWithResponseDic:(NSDictionary *)response{
+-(id)initWithResponseDic:(NSDictionary *)response
+{
     self = [super init];
     
-    if (self) {
+    if (self)
+    {
         [self initializeWithDic:response];
     }
-    
     return self;
 }
 
-- (void)initializeWithDic:(NSDictionary *)response{
+- (void)initializeWithDic:(NSDictionary *)response
+{
     
     _isSuccess = NO;
     
     if (response == nil || ![response isKindOfClass:[NSDictionary class]]
         || [response objectForKey:@"code"] == nil)
     {
-        self.errorMsg = DATA_FORMAT_ERROR;
+        self.errorMsg = Data_Format_Error;
         return;
     }
     _isSuccess = [[response objectForKey:@"code"] boolValue];
@@ -41,13 +43,13 @@
     
     if (_isSuccess == NO && [response objectForKey:@"message"]== nil )
     {
-        self.errorMsg = DATA_FORMAT_ERROR;
+        self.errorMsg = Data_Format_Error;
         return;
     }
     
     if (_isSuccess == YES && [response objectForKey:@"object"] == nil)
     {
-        self.errorMsg = DATA_FORMAT_ERROR;
+        self.errorMsg = Data_Format_Error;
         return;
     }
     
@@ -71,18 +73,19 @@
     else
     {
         _isSuccess = NO;
-        self.errorMsg = DATA_FORMAT_ERROR;
+        self.errorMsg = Data_Format_Error;
     }
 }
 
-- (void)loadResultData:(NSDictionary *)resultData{
+- (void)loadResultData:(NSDictionary *)resultData
+{
     
     _isSuccess = NO;
     
     if (resultData == nil || ![resultData isKindOfClass:[NSDictionary class]]
         || [resultData objectForKey:@"code"] == nil)
     {
-        self.errorMsg = DATA_FORMAT_ERROR;
+        self.errorMsg = Data_Format_Error;
         return;
     }
     
@@ -102,13 +105,13 @@
     
     if (_isSuccess == NO && [resultData objectForKey:@"message"]== nil )
     {
-        self.errorMsg = DATA_FORMAT_ERROR;
+        self.errorMsg = Data_Format_Error;
         return;
     }
     
     if (_isSuccess == YES && [resultData objectForKey:@"object"] == nil)
     {
-        self.errorMsg = DATA_FORMAT_ERROR;
+        self.errorMsg = Data_Format_Error;
         return;
     }
     
@@ -130,12 +133,13 @@
     else
     {
         _isSuccess = NO;
-        self.errorMsg = DATA_FORMAT_ERROR;
+        self.errorMsg = Data_Format_Error;
     }
 }
 
 
--(NSString *)description{
+-(NSString *)description
+{
     
     NSMutableString *descripString = [NSMutableString stringWithFormat:@""];
     [descripString appendString:@"\n========================Response Info===========================\n"];

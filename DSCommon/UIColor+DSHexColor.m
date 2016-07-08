@@ -17,7 +17,7 @@
  *
  *  @return 颜色返回值
  */
-- (UIColor*)colorWithHexString:(NSString*)hexString{
++ (UIColor*)colorWithHexString:(NSString*)hexString{
     unsigned int red,green,blue;
     NSRange range;
     range.length = 2;
@@ -38,7 +38,7 @@
  *
  *  @return 颜色返回值
  */
-- (UIColor*)colorWithHexString:(NSString*)hexString alpha:(CGFloat)alpha
++ (UIColor*)colorWithHexString:(NSString*)hexString alpha:(CGFloat)alpha
 {
     unsigned int red,green,blue;
     NSRange range;

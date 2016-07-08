@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C62360871D2CDF4500C15191 /* UIImage+DSImageColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C62360851D2CDF4500C15191 /* UIImage+DSImageColor.h */; };
+		C62360871D2CDF4500C15191 /* UIImage+DSImageColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C62360851D2CDF4500C15191 /* UIImage+DSImageColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C62360881D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */; };
 		C623608D1D2CE16F00C15191 /* NSMutableArray+DSSort.h in Headers */ = {isa = PBXBuildFile; fileRef = C623608B1D2CE16F00C15191 /* NSMutableArray+DSSort.h */; };
 		C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */ = {isa = PBXBuildFile; fileRef = C623608C1D2CE16F00C15191 /* NSMutableArray+DSSort.m */; };
+		C62406B51D2F4ED10029E49C /* DSAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = C62406B41D2F4ED10029E49C /* DSAuthority.m */; };
+		C62406BC1D2FA1D50029E49C /* DSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C62406BB1D2FA1D50029E49C /* DSFileManager.m */; };
+		C62406BF1D2FA6430029E49C /* DSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C62406BE1D2FA6430029E49C /* DSAnimation.m */; };
 		C627F8511D2CB69A00210620 /* UIImage+DSColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */; };
 		C627F8521D2CCAE000210620 /* DSCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B01CA7BBBD000478C7 /* DSCommon.h */; };
 		C627F8531D2CCAE800210620 /* DSDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B11CA7BBBD000478C7 /* DSDevice.h */; };
 		C627F8541D2CCAE800210620 /* NSString+DSURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */; };
 		C627F8561D2CCAE800210620 /* NSString+DSEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B51CA7BBE5000478C7 /* NSString+DSEncrypt.h */; };
 		C627F8571D2CCAE800210620 /* NSString+DSPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B71CA7BBE5000478C7 /* NSString+DSPredicate.h */; };
-		C627F8581D2CCAE800210620 /* UIColor+DSHexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B91CA7BBE5000478C7 /* UIColor+DSHexColor.h */; };
+		C627F8581D2CCAE800210620 /* UIColor+DSHexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B91CA7BBE5000478C7 /* UIColor+DSHexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C627F8591D2CCAE800210620 /* UIImage+DSColorImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */; };
 		C627F85B1D2CCAE800210620 /* UIScreen+DSScreenSize.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666BB1CA7BBE5000478C7 /* UIScreen+DSScreenSize.h */; };
 		C627F85C1D2CCAE800210620 /* UIView+DSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */; };
@@ -87,6 +90,12 @@
 		C623608B1D2CE16F00C15191 /* NSMutableArray+DSSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DSSort.h"; sourceTree = "<group>"; };
 		C623608C1D2CE16F00C15191 /* NSMutableArray+DSSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DSSort.m"; sourceTree = "<group>"; };
 		C62360911D2CE7A500C15191 /* DSMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMacro.h; sourceTree = "<group>"; };
+		C62406B31D2F4ED10029E49C /* DSAuthority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAuthority.h; sourceTree = "<group>"; };
+		C62406B41D2F4ED10029E49C /* DSAuthority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAuthority.m; sourceTree = "<group>"; };
+		C62406BA1D2FA1D50029E49C /* DSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSFileManager.h; sourceTree = "<group>"; };
+		C62406BB1D2FA1D50029E49C /* DSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSFileManager.m; sourceTree = "<group>"; };
+		C62406BD1D2FA6430029E49C /* DSAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAnimation.h; sourceTree = "<group>"; };
+		C62406BE1D2FA6430029E49C /* DSAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAnimation.m; sourceTree = "<group>"; };
 		C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DSColorImage.h"; sourceTree = "<group>"; };
 		C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSColorImage.m"; sourceTree = "<group>"; };
 		C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSURLString.h"; sourceTree = "<group>"; };
@@ -241,6 +250,12 @@
 				C62360911D2CE7A500C15191 /* DSMacro.h */,
 				C6F666B11CA7BBBD000478C7 /* DSDevice.h */,
 				C6F666B41CA7BBE5000478C7 /* DSDevice.m */,
+				C62406BA1D2FA1D50029E49C /* DSFileManager.h */,
+				C62406BB1D2FA1D50029E49C /* DSFileManager.m */,
+				C62406B31D2F4ED10029E49C /* DSAuthority.h */,
+				C62406B41D2F4ED10029E49C /* DSAuthority.m */,
+				C62406BD1D2FA6430029E49C /* DSAnimation.h */,
+				C62406BE1D2FA6430029E49C /* DSAnimation.m */,
 				C65CAE281D2E333B00AFEB6F /* HTTP */,
 				C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */,
 				C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */,
@@ -484,17 +499,20 @@
 				C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */,
 				C6F666C91CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */,
 				C6F666C11CA7BBE5000478C7 /* NSString+DSEncrypt.m in Sources */,
+				C62406BF1D2FA6430029E49C /* DSAnimation.m in Sources */,
 				C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */,
 				C6F666C51CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */,
 				C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */,
 				C6F666B21CA7BBBD000478C7 /* DSBaseViewController.m in Sources */,
 				C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */,
 				C627F8511D2CB69A00210620 /* UIImage+DSColorImage.m in Sources */,
+				C62406BC1D2FA1D50029E49C /* DSFileManager.m in Sources */,
 				C6F666BF1CA7BBE5000478C7 /* DSDevice.m in Sources */,
 				C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */,
 				C6F666C31CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */,
 				C62360881D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */,
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
+				C62406B51D2F4ED10029E49C /* DSAuthority.m in Sources */,
 				C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */,
 				C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */,
 				C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */,
@@ -630,6 +648,7 @@
 			baseConfigurationReference = 14A5BC22798E291B3F402D36 /* Pods-DSCommon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -648,6 +667,7 @@
 			baseConfigurationReference = FAFF888257D69539275FF56D /* Pods-DSCommon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
