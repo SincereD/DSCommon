@@ -13,10 +13,25 @@
  */
 @interface DSFileManager : NSObject
 
+/**
+ *  Document
+ *
+ *  @return NSString
+ */
 + (NSString*)documentPath;
 
+/**
+ *  Cache
+ *
+ *  @return NSString
+ */
 + (NSString*)cachePath;
 
+/**
+ *  Library
+ *
+ *  @return NSString
+ */
 + (NSString*)libraryPath;
 
 @end

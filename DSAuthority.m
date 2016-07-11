@@ -12,7 +12,6 @@
 #import <AddressBook/AddressBook.h>
 #import <CoreLocation/CoreLocation.h>
 #import <UIKit/UIKit.h>
-#import <HealthKit/HealthKit.h>
 
 @implementation DSAuthority
 
