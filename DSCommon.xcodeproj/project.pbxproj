@@ -31,6 +31,7 @@
 		C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE191D2E098400AFEB6F /* DSResponse.m */; };
 		C65CAE241D2E332B00AFEB6F /* DSHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C65CAE221D2E332B00AFEB6F /* DSHTTPRequest.h */; };
 		C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */; };
+		C6766DD31D4853FD004BDDE5 /* DSAttribuateLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */; };
 		C6D703C41C92AC0200F9375D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C31C92AC0200F9375D /* main.m */; };
 		C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C61C92AC0200F9375D /* AppDelegate.m */; };
 		C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C91C92AC0200F9375D /* ViewController.m */; };
@@ -106,6 +107,8 @@
 		C65CAE191D2E098400AFEB6F /* DSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSResponse.m; sourceTree = "<group>"; };
 		C65CAE221D2E332B00AFEB6F /* DSHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHTTPRequest.h; sourceTree = "<group>"; };
 		C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHTTPRequest.m; sourceTree = "<group>"; };
+		C6766DD11D4853FD004BDDE5 /* DSAttribuateLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAttribuateLabel.h; sourceTree = "<group>"; };
+		C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAttribuateLabel.m; sourceTree = "<group>"; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703C31C92AC0200F9375D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6D703C51C92AC0200F9375D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -256,6 +259,8 @@
 				C62406B41D2F4ED10029E49C /* DSAuthority.m */,
 				C62406BD1D2FA6430029E49C /* DSAnimation.h */,
 				C62406BE1D2FA6430029E49C /* DSAnimation.m */,
+				C6766DD11D4853FD004BDDE5 /* DSAttribuateLabel.h */,
+				C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */,
 				C65CAE281D2E333B00AFEB6F /* HTTP */,
 				C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */,
 				C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */,
@@ -503,6 +508,7 @@
 				C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */,
 				C6F666C51CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */,
 				C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */,
+				C6766DD31D4853FD004BDDE5 /* DSAttribuateLabel.m in Sources */,
 				C6F666B21CA7BBBD000478C7 /* DSBaseViewController.m in Sources */,
 				C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */,
 				C627F8511D2CB69A00210620 /* UIImage+DSColorImage.m in Sources */,
