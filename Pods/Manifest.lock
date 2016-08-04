@@ -15,15 +15,18 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - JSONKit (1.4)
+  - UMengSocial (5.0)
 
 DEPENDENCIES:
   - AFNetworking
   - JSONKit
+  - UMengSocial
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   JSONKit: 5b69e804ea54d99293eed0fd2ce596c5703fefb0
+  UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
 
-PODFILE CHECKSUM: de6e44cc9d3d8327dc55390a7dca936d1ea29c02
+PODFILE CHECKSUM: c1ad89740baf4f819565d8e53ff286a7cc09ddfc
 
 COCOAPODS: 1.0.0.beta.5

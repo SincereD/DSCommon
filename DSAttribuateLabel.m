@@ -7,7 +7,7 @@
 //
 
 #import "DSAttribuateLabel.h"
-#import "UIColor+YFHexColor.h"
+#import "UIColor+DSHexColor.h"
 
 @implementation DSAttribuateLabel
 

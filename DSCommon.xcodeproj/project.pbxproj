@@ -26,6 +26,7 @@
 		C627F85C1D2CCAE800210620 /* UIView+DSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */; };
 		C627F85D1D2CCAE800210620 /* DSBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666AE1CA7BBBD000478C7 /* DSBaseViewController.h */; };
 		C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */; };
+		C63A36791D52DADB00B62E0F /* YFShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A36781D52DADB00B62E0F /* YFShareView.m */; };
 		C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE161D2E096F00AFEB6F /* DSRequest.m */; };
 		C65CAE1A1D2E098400AFEB6F /* DSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C65CAE181D2E098400AFEB6F /* DSResponse.h */; };
 		C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE191D2E098400AFEB6F /* DSResponse.m */; };
@@ -101,6 +102,8 @@
 		C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSColorImage.m"; sourceTree = "<group>"; };
 		C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSURLString.h"; sourceTree = "<group>"; };
 		C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSURLString.m"; sourceTree = "<group>"; };
+		C63A36771D52DADB00B62E0F /* YFShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFShareView.h; sourceTree = "<group>"; };
+		C63A36781D52DADB00B62E0F /* YFShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFShareView.m; sourceTree = "<group>"; };
 		C65CAE151D2E096F00AFEB6F /* DSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRequest.h; sourceTree = "<group>"; };
 		C65CAE161D2E096F00AFEB6F /* DSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRequest.m; sourceTree = "<group>"; };
 		C65CAE181D2E098400AFEB6F /* DSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSResponse.h; sourceTree = "<group>"; };
@@ -186,6 +189,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C63A36761D52DAC700B62E0F /* 分享 */ = {
+			isa = PBXGroup;
+			children = (
+				C63A36771D52DADB00B62E0F /* YFShareView.h */,
+				C63A36781D52DADB00B62E0F /* YFShareView.m */,
+			);
+			name = "分享";
+			sourceTree = "<group>";
+		};
 		C65CAE281D2E333B00AFEB6F /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +273,7 @@
 				C62406BE1D2FA6430029E49C /* DSAnimation.m */,
 				C6766DD11D4853FD004BDDE5 /* DSAttribuateLabel.h */,
 				C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */,
+				C63A36761D52DAC700B62E0F /* 分享 */,
 				C65CAE281D2E333B00AFEB6F /* HTTP */,
 				C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */,
 				C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */,
@@ -520,6 +533,7 @@
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
 				C62406B51D2F4ED10029E49C /* DSAuthority.m in Sources */,
 				C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */,
+				C63A36791D52DADB00B62E0F /* YFShareView.m in Sources */,
 				C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */,
 				C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */,
 			);
