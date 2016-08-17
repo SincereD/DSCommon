@@ -7,30 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C62360871D2CDF4500C15191 /* UIImage+DSImageColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C62360851D2CDF4500C15191 /* UIImage+DSImageColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C62360881D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */; };
-		C623608D1D2CE16F00C15191 /* NSMutableArray+DSSort.h in Headers */ = {isa = PBXBuildFile; fileRef = C623608B1D2CE16F00C15191 /* NSMutableArray+DSSort.h */; };
 		C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */ = {isa = PBXBuildFile; fileRef = C623608C1D2CE16F00C15191 /* NSMutableArray+DSSort.m */; };
 		C62406B51D2F4ED10029E49C /* DSAuthority.m in Sources */ = {isa = PBXBuildFile; fileRef = C62406B41D2F4ED10029E49C /* DSAuthority.m */; };
 		C62406BC1D2FA1D50029E49C /* DSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C62406BB1D2FA1D50029E49C /* DSFileManager.m */; };
 		C62406BF1D2FA6430029E49C /* DSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C62406BE1D2FA6430029E49C /* DSAnimation.m */; };
 		C627F8511D2CB69A00210620 /* UIImage+DSColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */; };
-		C627F8521D2CCAE000210620 /* DSCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B01CA7BBBD000478C7 /* DSCommon.h */; };
-		C627F8531D2CCAE800210620 /* DSDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B11CA7BBBD000478C7 /* DSDevice.h */; };
-		C627F8541D2CCAE800210620 /* NSString+DSURLString.h in Headers */ = {isa = PBXBuildFile; fileRef = C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */; };
-		C627F8561D2CCAE800210620 /* NSString+DSEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B51CA7BBE5000478C7 /* NSString+DSEncrypt.h */; };
-		C627F8571D2CCAE800210620 /* NSString+DSPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B71CA7BBE5000478C7 /* NSString+DSPredicate.h */; };
-		C627F8581D2CCAE800210620 /* UIColor+DSHexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666B91CA7BBE5000478C7 /* UIColor+DSHexColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C627F8591D2CCAE800210620 /* UIImage+DSColorImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */; };
-		C627F85B1D2CCAE800210620 /* UIScreen+DSScreenSize.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666BB1CA7BBE5000478C7 /* UIScreen+DSScreenSize.h */; };
-		C627F85C1D2CCAE800210620 /* UIView+DSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */; };
-		C627F85D1D2CCAE800210620 /* DSBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666AE1CA7BBBD000478C7 /* DSBaseViewController.h */; };
 		C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */; };
-		C63A36791D52DADB00B62E0F /* YFShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A36781D52DADB00B62E0F /* YFShareView.m */; };
+		C63A36791D52DADB00B62E0F /* DSShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A36781D52DADB00B62E0F /* DSShareView.m */; };
 		C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE161D2E096F00AFEB6F /* DSRequest.m */; };
-		C65CAE1A1D2E098400AFEB6F /* DSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C65CAE181D2E098400AFEB6F /* DSResponse.h */; };
 		C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE191D2E098400AFEB6F /* DSResponse.m */; };
-		C65CAE241D2E332B00AFEB6F /* DSHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C65CAE221D2E332B00AFEB6F /* DSHTTPRequest.h */; };
 		C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */; };
 		C6766DD31D4853FD004BDDE5 /* DSAttribuateLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */; };
 		C6D703C41C92AC0200F9375D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C31C92AC0200F9375D /* main.m */; };
@@ -46,39 +32,16 @@
 		C6F666C51CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
 		C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
 		C6F666C91CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
-		C6F666F61CA7BEFB000478C7 /* SincereFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F666F51CA7BEFB000478C7 /* SincereFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6F666FA1CA7BEFB000478C7 /* SincereFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */; };
-		C6F666FB1CA7BEFB000478C7 /* SincereFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FD19D96AFE98C3EDD2142D68 /* libPods-DSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C6F666F81CA7BEFB000478C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6D703B71C92AC0200F9375D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6F666F21CA7BEFB000478C7;
-			remoteInfo = SincereFrameWork;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		C6F666DC1CA7BE04000478C7 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C6F666FF1CA7BEFB000478C7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C6F666FB1CA7BEFB000478C7 /* SincereFrameWork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,8 +65,8 @@
 		C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSColorImage.m"; sourceTree = "<group>"; };
 		C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSURLString.h"; sourceTree = "<group>"; };
 		C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSURLString.m"; sourceTree = "<group>"; };
-		C63A36771D52DADB00B62E0F /* YFShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFShareView.h; sourceTree = "<group>"; };
-		C63A36781D52DADB00B62E0F /* YFShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFShareView.m; sourceTree = "<group>"; };
+		C63A36771D52DADB00B62E0F /* DSShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSShareView.h; sourceTree = "<group>"; };
+		C63A36781D52DADB00B62E0F /* DSShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSShareView.m; sourceTree = "<group>"; };
 		C65CAE151D2E096F00AFEB6F /* DSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRequest.h; sourceTree = "<group>"; };
 		C65CAE161D2E096F00AFEB6F /* DSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRequest.m; sourceTree = "<group>"; };
 		C65CAE181D2E098400AFEB6F /* DSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSResponse.h; sourceTree = "<group>"; };
@@ -137,10 +100,6 @@
 		C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+DSScreenSize.m"; path = "DSCommon/UIScreen+DSScreenSize.m"; sourceTree = "<group>"; };
 		C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DSCapture.h"; path = "DSCommon/UIView+DSCapture.h"; sourceTree = "<group>"; };
 		C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DSCapture.m"; path = "DSCommon/UIView+DSCapture.m"; sourceTree = "<group>"; };
-		C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSIncereCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SincereFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F666F51CA7BEFB000478C7 /* SincereFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SincereFrameWork.h; sourceTree = "<group>"; };
-		C6F666F71CA7BEFB000478C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DSCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFF888257D69539275FF56D /* Pods-DSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSCommon/Pods-DSCommon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,22 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F666FA1CA7BEFB000478C7 /* SincereFrameWork.framework in Frameworks */,
 				FD19D96AFE98C3EDD2142D68 /* libPods-DSCommon.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6F666DB1CA7BE04000478C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6F666EF1CA7BEFB000478C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +136,8 @@
 		C63A36761D52DAC700B62E0F /* 分享 */ = {
 			isa = PBXGroup;
 			children = (
-				C63A36771D52DADB00B62E0F /* YFShareView.h */,
-				C63A36781D52DADB00B62E0F /* YFShareView.m */,
+				C63A36771D52DADB00B62E0F /* DSShareView.h */,
+				C63A36781D52DADB00B62E0F /* DSShareView.m */,
 			);
 			name = "分享";
 			sourceTree = "<group>";
@@ -215,8 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				C6D703C11C92AC0200F9375D /* DSCommon */,
-				C6F666DF1CA7BE04000478C7 /* SIncereCommon */,
-				C6F666F41CA7BEFB000478C7 /* SincereFrameWork */,
 				C6D703C01C92AC0200F9375D /* Products */,
 				0164DE844837C83459343703 /* Pods */,
 				B74DFFA9A70A6FADA1D69C2C /* Frameworks */,
@@ -227,8 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				C6D703BF1C92AC0200F9375D /* DSCommon.app */,
-				C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */,
-				C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -300,48 +240,7 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		C6F666DF1CA7BE04000478C7 /* SIncereCommon */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SIncereCommon;
-			sourceTree = "<group>";
-		};
-		C6F666F41CA7BEFB000478C7 /* SincereFrameWork */ = {
-			isa = PBXGroup;
-			children = (
-				C6F666F51CA7BEFB000478C7 /* SincereFrameWork.h */,
-				C6F666F71CA7BEFB000478C7 /* Info.plist */,
-			);
-			path = SincereFrameWork;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		C6F666F01CA7BEFB000478C7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C65CAE1A1D2E098400AFEB6F /* DSResponse.h in Headers */,
-				C627F8541D2CCAE800210620 /* NSString+DSURLString.h in Headers */,
-				C627F8591D2CCAE800210620 /* UIImage+DSColorImage.h in Headers */,
-				C627F8571D2CCAE800210620 /* NSString+DSPredicate.h in Headers */,
-				C627F85B1D2CCAE800210620 /* UIScreen+DSScreenSize.h in Headers */,
-				C65CAE241D2E332B00AFEB6F /* DSHTTPRequest.h in Headers */,
-				C627F8531D2CCAE800210620 /* DSDevice.h in Headers */,
-				C627F85C1D2CCAE800210620 /* UIView+DSCapture.h in Headers */,
-				C623608D1D2CE16F00C15191 /* NSMutableArray+DSSort.h in Headers */,
-				C627F85D1D2CCAE800210620 /* DSBaseViewController.h in Headers */,
-				C627F8581D2CCAE800210620 /* UIColor+DSHexColor.h in Headers */,
-				C627F8521D2CCAE000210620 /* DSCommon.h in Headers */,
-				C62360871D2CDF4500C15191 /* UIImage+DSImageColor.h in Headers */,
-				C6F666F61CA7BEFB000478C7 /* SincereFrameWork.h in Headers */,
-				C627F8561D2CCAE800210620 /* NSString+DSEncrypt.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C6D703BE1C92AC0200F9375D /* DSCommon */ = {
@@ -359,47 +258,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				C6F666F91CA7BEFB000478C7 /* PBXTargetDependency */,
 			);
 			name = DSCommon;
 			productName = DSCommon;
 			productReference = C6D703BF1C92AC0200F9375D /* DSCommon.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C6F666DD1CA7BE04000478C7 /* SIncereCommon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6F666E41CA7BE04000478C7 /* Build configuration list for PBXNativeTarget "SIncereCommon" */;
-			buildPhases = (
-				C6F666DA1CA7BE04000478C7 /* Sources */,
-				C6F666DB1CA7BE04000478C7 /* Frameworks */,
-				C6F666DC1CA7BE04000478C7 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SIncereCommon;
-			productName = SIncereCommon;
-			productReference = C6F666DE1CA7BE04000478C7 /* libSIncereCommon.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C6F666F21CA7BEFB000478C7 /* SincereFrameWork */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6F666FE1CA7BEFB000478C7 /* Build configuration list for PBXNativeTarget "SincereFrameWork" */;
-			buildPhases = (
-				C6F666EE1CA7BEFB000478C7 /* Sources */,
-				C6F666EF1CA7BEFB000478C7 /* Frameworks */,
-				C6F666F01CA7BEFB000478C7 /* Headers */,
-				C6F666F11CA7BEFB000478C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SincereFrameWork;
-			productName = SincereFrameWork;
-			productReference = C6F666F31CA7BEFB000478C7 /* SincereFrameWork.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -412,12 +275,6 @@
 				TargetAttributes = {
 					C6D703BE1C92AC0200F9375D = {
 						CreatedOnToolsVersion = 7.2.1;
-					};
-					C6F666DD1CA7BE04000478C7 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					C6F666F21CA7BEFB000478C7 = {
-						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -435,8 +292,6 @@
 			projectRoot = "";
 			targets = (
 				C6D703BE1C92AC0200F9375D /* DSCommon */,
-				C6F666DD1CA7BE04000478C7 /* SIncereCommon */,
-				C6F666F21CA7BEFB000478C7 /* SincereFrameWork */,
 			);
 		};
 /* End PBXProject section */
@@ -449,13 +304,6 @@
 				C6D703D21C92AC0300F9375D /* LaunchScreen.storyboard in Resources */,
 				C6D703CF1C92AC0200F9375D /* Assets.xcassets in Resources */,
 				C6D703CD1C92AC0200F9375D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6F666F11CA7BEFB000478C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,35 +381,13 @@
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
 				C62406B51D2F4ED10029E49C /* DSAuthority.m in Sources */,
 				C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */,
-				C63A36791D52DADB00B62E0F /* YFShareView.m in Sources */,
+				C63A36791D52DADB00B62E0F /* DSShareView.m in Sources */,
 				C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */,
 				C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6F666DA1CA7BE04000478C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6F666EE1CA7BEFB000478C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C6F666F91CA7BEFB000478C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C6F666F21CA7BEFB000478C7 /* SincereFrameWork */;
-			targetProxy = C6F666F81CA7BEFB000478C7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C6D703CB1C92AC0200F9375D /* Main.storyboard */ = {
@@ -603,6 +429,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -619,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -646,6 +473,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -656,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -701,72 +529,6 @@
 			};
 			name = Release;
 		};
-		C6F666E51CA7BE04000478C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C6F666E61CA7BE04000478C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C6F666FC1CA7BEFB000478C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SincereFrameWork/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yellfun.SincereFrameWork;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C6F666FD1CA7BEFB000478C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SincereFrameWork/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yellfun.SincereFrameWork;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -784,24 +546,6 @@
 			buildConfigurations = (
 				C6D703D71C92AC0300F9375D /* Debug */,
 				C6D703D81C92AC0300F9375D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C6F666E41CA7BE04000478C7 /* Build configuration list for PBXNativeTarget "SIncereCommon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6F666E51CA7BE04000478C7 /* Debug */,
-				C6F666E61CA7BE04000478C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C6F666FE1CA7BEFB000478C7 /* Build configuration list for PBXNativeTarget "SincereFrameWork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6F666FC1CA7BEFB000478C7 /* Debug */,
-				C6F666FD1CA7BEFB000478C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

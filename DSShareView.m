@@ -6,10 +6,10 @@
 //  Copyright © 2016年 Sincere. All rights reserved.
 //
 
-#import "YFShareView.h"
+#import "DSShareView.h"
 #import <UMSocial.h>
 
-@interface YFShareView ()
+@interface DSShareView ()
 
 @property (nonatomic, weak) UIView *container;
 @property (nonatomic, weak) UIButton *cancelButton;
@@ -18,7 +18,7 @@
 @end
 
 
-@implementation YFShareView
+@implementation DSShareView
 
 - (instancetype)init
 {
