@@ -22,13 +22,13 @@
  */
 -(id)initWithResponseDic:(NSDictionary *)responseDic;
 
-@property (nonatomic, strong) NSString *responseName;   //响应请求名字
-@property (nonatomic, assign) BOOL isSuccess;           //是否成功
-@property (nonatomic, strong) NSString     *errorMsg;   //错误信息
-@property (nonatomic, strong) NSDictionary *result;     //结果数据
-@property (nonatomic, strong) NSString     *status;
-@property (nonatomic, strong) NSString     *resultJsonStr;
-@property (nonatomic, strong) NSString     *error_code; //错误码
+@property (nonatomic, strong) NSString *responseName;     //响应请求名字
+@property (nonatomic, assign) BOOL isSuccess;             //是否成功
+@property (nonatomic, strong) NSString     *errorMsg;     //错误信息
+@property (nonatomic, strong) NSDictionary *result;       //结果数据
+@property (nonatomic, strong) NSString     *status;       //状态码
+@property (nonatomic, strong) NSString     *resultJsonStr;//JSON字符串
+@property (nonatomic, strong) NSString     *error_code;   //错误码
 
 @property (nonatomic, strong)id responseModel;
 

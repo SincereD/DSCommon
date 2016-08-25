@@ -3,4 +3,5 @@ target’DSCommon’do
 pod 'AFNetworking'
 pod 'JSONKit'
 pod 'UMengSocial'
+pod 'JSONModel'
 end

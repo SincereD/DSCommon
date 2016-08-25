@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DSCommon.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [[DSHTTPRequest sharedHTTPRequest] requesWithRequestName:@"" requestPath:@"" parameters:@{} isPost:YES successBlock:^(DSRequest *request, DSResponse *response) {
+        
+    } failedBlock:^(DSRequest *request, DSResponse *response) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -36,6 +36,18 @@ typedef void(^DSRequestCompletedBlock)(DSRequest *request, DSResponse *response)
 @property (nonatomic, strong) NSMutableURLRequest *urlRequest;
 
 /**
+ *  创建请求
+ *
+ *  @param name   请求名称
+ *  @param path   请求路径
+ *  @param parmas 请求参数
+ *
+ */
+- (void)requestWithRequestName:(NSString*)name
+                           requestPath:(NSString*)path
+                                parmas:(NSDictionary*)parmas;
+
+/**
  *  启动请求
  *
  *  @param sucessBlock 成功

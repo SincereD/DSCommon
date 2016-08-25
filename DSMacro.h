@@ -18,10 +18,13 @@
 //图片名
 #define kImage(name) [UIImage imageNamed:name]
 
+//普通输出
+#define DSLog(...)      NSLog(@"%@",__VA_ARGS__);
+
 //输出点、坐标、Rect
 #define DSLogPoint(p)	NSLog(@"%.2f,%.2f", p.x, p.y);
 #define DSLogSize(size)	NSLog(@"%.2f,%.2f", size.width, size.height);
-#define DLogRecT(p)   	NSLog(@"%.2f,%.2f %.2f,%.2f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+#define DSLogRecT(p)   	NSLog(@"%.2f,%.2f %.2f,%.2f", p.origin.x, p.origin.y, p.size.width, p.size.height);
 
 //格式化数字
 #define kDoubleToString(double) [NSString stringWithFormat:@"%.2f",double]

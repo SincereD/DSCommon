@@ -9,24 +9,36 @@
 #ifndef DSCommon_h
 #define DSCommon_h
 
-#import "DSBaseViewController.h"
+#import "DSBaseViewController.h" //UIViewController 基类
 
-#import "DSMaccro.h"
 
-#import "DSDevice.h"
+#import "DSMacro.h" //常用宏定义
+#import "DSDevice.h" //系统信息
 
-#import "UIScreen+DSScreenSize.h"
+#import "DSAuthority.h"   // 系统权限
+#import "DSFileManager.h" // 文件管理
+#import "DSAnimation.h"   // 转场动画
 
-#import "NSString+DSEncrypt.h"
-#import "NSString+DSPredicate.h"
-#import "NSString+DSURLString.h"
+#import "UIScreen+DSScreenSize.h" //屏幕宽度
 
-#import "UIColor+DSHexColor.h"
+#import "NSString+DSEncrypt.h"    //字符串加密
+#import "NSString+DSPredicate.h"  //正则表达式
+#import "NSString+DSURLString.h"  //URL转码
 
-#import "UIImage+DSColorImage.h"
-#import "UIImage+DSImageColor.h"
+#import "DSAttribuateLabel.h"     //富文本标签
 
-#import "UIView+DSCapture.h"
+#import "UIColor+DSHexColor.h"    //16进制色值
+
+#import "DSShareView.h"           //第三方分享页面
+
+#import "UIImage+DSColorImage.h"  //根据色值生成图片
+#import "UIImage+DSImageColor.h"  //获取图片的主色调
+
+#import "UIView+DSCapture.h"      //截取UIView
+
+#import "NSMutableArray+DSSort.h" //数组排序
+
+#import "DSHTTPRequest.h"
 
 
 #endif /* DSCommon_h */

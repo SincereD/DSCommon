@@ -35,13 +35,23 @@
     self.isManualCancel = NO;
 }
 
+- (void)requestWithRequestName:(NSString*)name
+                   requestPath:(NSString*)path
+                        parmas:(NSMutableDictionary*)parmas
+{
+    [self setRequestName:name];
+    [self setRequestPath:path];
+    [self setParams:parmas];
+}
+
+
 - (void)startRequestWithSucessBlock:(DSRequestCompletedBlock )successBlock
                         FailedBlock:(DSRequestCompletedBlock )failedBlock
 {
     
     __block DSRequest * blockSelf = self;
     sessionManager = [AFHTTPSessionManager manager];
-    [sessionManager POST:@"" parameters:@{} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject)
+    [sessionManager POST:@"POST" parameters:self.params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject)
     {
         
         [blockSelf processSucessBlockwithOperation:sessionManager withResponseObject:responseObject WithSucessBlock:successBlock withFailedBlock:failedBlock];

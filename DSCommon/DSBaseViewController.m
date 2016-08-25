@@ -16,6 +16,11 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
+
 /**
  *  获取右侧导航控件
  *
@@ -23,7 +28,7 @@
  */
 - (UIBarButtonItem*)rightBarButtonItem
 {
-    return self.navigationController.navigationItem.rightBarButtonItem;
+    return self.navigationItem.rightBarButtonItem;
 }
 
 /**
@@ -33,7 +38,7 @@
  */
 - (UIBarButtonItem*)leftBarButtonItem
 {
-    return self.navigationController.navigationItem.leftBarButtonItem;
+    return self.navigationItem.leftBarButtonItem;
 }
 
 /**
@@ -44,6 +49,36 @@
 - (UITabBar*)tabBar
 {
     return self.tabBarController.tabBar;
+}
+
+/**
+ *  设置左侧按钮
+ *
+ *  @param leftItem UIBarButtonItem
+ */
+- (void)initLeftBarButtonItem:(nonnull UIBarButtonItem*)leftItem
+{
+    [self.navigationItem setLeftBarButtonItem:leftItem];
+}
+
+- (void)initLeftBarButtonItems:(nonnull NSArray<UIBarButtonItem *>*)leftItems
+{
+    [self.navigationItem setLeftBarButtonItems:leftItems];
+}
+
+/**
+ *  设置右侧按钮
+ *
+ *  @param rightItem UIBarButtonItem
+ */
+- (void)initRightBarButtonItem:(nonnull UIBarButtonItem*)rightItem
+{
+    [self.navigationItem setRightBarButtonItem:rightItem];
+}
+
+- (void)initRightBarButtonItems:(nonnull NSArray<UIBarButtonItem*>*)rightItems
+{
+    [self.navigationItem setRightBarButtonItems:rightItems];
 }
 
 @end

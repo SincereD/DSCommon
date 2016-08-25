@@ -37,7 +37,9 @@
     UIImage *timelineIcon = [UIImage imageNamed:@"share_2"];
     UIImage *qqIcon       = [UIImage imageNamed:@"share_3"];
     UIImage *sinaIcon     = [UIImage imageNamed:@"share_4"];
+    
     NSMutableArray *icons = [NSMutableArray arrayWithObjects:wechatIcon,timelineIcon,qqIcon,sinaIcon,nil];
+    
     if (![[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"weixin://"]]) {
         [self.titles removeObject:@"微信好友"];
         [self.titles removeObject:@"朋友圈"];
@@ -54,6 +56,7 @@
         [self.titles removeObject:@"新浪微博"];
         [icons removeObject:sinaIcon];
     }
+    
     UIView *container  = [[UIView alloc] init];
     container.frame = CGRectMake(10, CGRectGetHeight(self.bounds), CGRectGetWidth(self.bounds)-20, 161);
     container.backgroundColor = [UIColor whiteColor];
@@ -111,6 +114,7 @@
 {
     [view addSubview:self];
     [view bringSubviewToFront:self];
+    
     [UIView animateWithDuration:0.3 animations:^{
         
         CGRect aFrame = self.container.frame;

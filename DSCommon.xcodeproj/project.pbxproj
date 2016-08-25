@@ -13,8 +13,12 @@
 		C62406BC1D2FA1D50029E49C /* DSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C62406BB1D2FA1D50029E49C /* DSFileManager.m */; };
 		C62406BF1D2FA6430029E49C /* DSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C62406BE1D2FA6430029E49C /* DSAnimation.m */; };
 		C627F8511D2CB69A00210620 /* UIImage+DSColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */; };
+		C629C51D1D645971000B314A /* DSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C629C51C1D645971000B314A /* DSBaseNavigationController.m */; };
+		C629C5201D6459FD000B314A /* DSBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C629C51F1D6459FD000B314A /* DSBaseTabBarController.m */; };
 		C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */; };
 		C63A36791D52DADB00B62E0F /* DSShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C63A36781D52DADB00B62E0F /* DSShareView.m */; };
+		C654B2A61D6E9F960011E9FB /* AppDelegate+DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C654B2A51D6E9F960011E9FB /* AppDelegate+DSAppDelegate.m */; };
+		C654B2B71D6ECA4F0011E9FB /* DSBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C654B2B61D6ECA4F0011E9FB /* DSBaseDataModel.m */; };
 		C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE161D2E096F00AFEB6F /* DSRequest.m */; };
 		C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE191D2E098400AFEB6F /* DSResponse.m */; };
 		C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */; };
@@ -63,10 +67,18 @@
 		C62406BE1D2FA6430029E49C /* DSAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAnimation.m; sourceTree = "<group>"; };
 		C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DSColorImage.h"; sourceTree = "<group>"; };
 		C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSColorImage.m"; sourceTree = "<group>"; };
+		C629C51B1D645971000B314A /* DSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseNavigationController.h; sourceTree = "<group>"; };
+		C629C51C1D645971000B314A /* DSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseNavigationController.m; sourceTree = "<group>"; };
+		C629C51E1D6459FD000B314A /* DSBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseTabBarController.h; sourceTree = "<group>"; };
+		C629C51F1D6459FD000B314A /* DSBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseTabBarController.m; sourceTree = "<group>"; };
 		C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSURLString.h"; sourceTree = "<group>"; };
 		C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSURLString.m"; sourceTree = "<group>"; };
 		C63A36771D52DADB00B62E0F /* DSShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSShareView.h; sourceTree = "<group>"; };
 		C63A36781D52DADB00B62E0F /* DSShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSShareView.m; sourceTree = "<group>"; };
+		C654B2A41D6E9F960011E9FB /* AppDelegate+DSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DSAppDelegate.h"; sourceTree = "<group>"; };
+		C654B2A51D6E9F960011E9FB /* AppDelegate+DSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DSAppDelegate.m"; sourceTree = "<group>"; };
+		C654B2B51D6ECA4F0011E9FB /* DSBaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBaseDataModel.h; sourceTree = "<group>"; };
+		C654B2B61D6ECA4F0011E9FB /* DSBaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBaseDataModel.m; sourceTree = "<group>"; };
 		C65CAE151D2E096F00AFEB6F /* DSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRequest.h; sourceTree = "<group>"; };
 		C65CAE161D2E096F00AFEB6F /* DSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSRequest.m; sourceTree = "<group>"; };
 		C65CAE181D2E098400AFEB6F /* DSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSResponse.h; sourceTree = "<group>"; };
@@ -96,8 +108,8 @@
 		C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DSPredicate.m"; path = "DSCommon/NSString+DSPredicate.m"; sourceTree = "<group>"; };
 		C6F666B91CA7BBE5000478C7 /* UIColor+DSHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+DSHexColor.h"; path = "DSCommon/UIColor+DSHexColor.h"; sourceTree = "<group>"; };
 		C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DSHexColor.m"; path = "DSCommon/UIColor+DSHexColor.m"; sourceTree = "<group>"; };
-		C6F666BB1CA7BBE5000478C7 /* UIScreen+DSScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+DSScreenSize.h"; path = "DSCommon/UIScreen+DSScreenSize.h"; sourceTree = "<group>"; };
-		C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+DSScreenSize.m"; path = "DSCommon/UIScreen+DSScreenSize.m"; sourceTree = "<group>"; };
+		C6F666BB1CA7BBE5000478C7 /* UIScreen+DSScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+DSScreenSize.h"; sourceTree = "<group>"; };
+		C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+DSScreenSize.m"; sourceTree = "<group>"; };
 		C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DSCapture.h"; path = "DSCommon/UIView+DSCapture.h"; sourceTree = "<group>"; };
 		C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DSCapture.m"; path = "DSCommon/UIView+DSCapture.m"; sourceTree = "<group>"; };
 		C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DSCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +152,134 @@
 				C63A36781D52DADB00B62E0F /* DSShareView.m */,
 			);
 			name = "分享";
+			sourceTree = "<group>";
+		};
+		C654B2A71D6E9FAC0011E9FB /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C62406BD1D2FA6430029E49C /* DSAnimation.h */,
+				C62406BE1D2FA6430029E49C /* DSAnimation.m */,
+			);
+			name = "转场动画";
+			sourceTree = "<group>";
+		};
+		C654B2A81D6E9FBF0011E9FB /* 设备信息 */ = {
+			isa = PBXGroup;
+			children = (
+				C6F666B11CA7BBBD000478C7 /* DSDevice.h */,
+				C6F666B41CA7BBE5000478C7 /* DSDevice.m */,
+			);
+			name = "设备信息";
+			sourceTree = "<group>";
+		};
+		C654B2A91D6E9FCE0011E9FB /* 文件处理 */ = {
+			isa = PBXGroup;
+			children = (
+				C62406BA1D2FA1D50029E49C /* DSFileManager.h */,
+				C62406BB1D2FA1D50029E49C /* DSFileManager.m */,
+			);
+			name = "文件处理";
+			sourceTree = "<group>";
+		};
+		C654B2AA1D6E9FD90011E9FB /* 系统权限 */ = {
+			isa = PBXGroup;
+			children = (
+				C62406B31D2F4ED10029E49C /* DSAuthority.h */,
+				C62406B41D2F4ED10029E49C /* DSAuthority.m */,
+			);
+			name = "系统权限";
+			sourceTree = "<group>";
+		};
+		C654B2AB1D6E9FEB0011E9FB /* 富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				C6766DD11D4853FD004BDDE5 /* DSAttribuateLabel.h */,
+				C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */,
+			);
+			name = "富文本";
+			sourceTree = "<group>";
+		};
+		C654B2AC1D6EA0010011E9FB /* 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				C6F666AE1CA7BBBD000478C7 /* DSBaseViewController.h */,
+				C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */,
+				C629C51B1D645971000B314A /* DSBaseNavigationController.h */,
+				C629C51C1D645971000B314A /* DSBaseNavigationController.m */,
+				C629C51E1D6459FD000B314A /* DSBaseTabBarController.h */,
+				C629C51F1D6459FD000B314A /* DSBaseTabBarController.m */,
+			);
+			name = "基类";
+			sourceTree = "<group>";
+		};
+		C654B2AD1D6EA0880011E9FB /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */,
+				C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */,
+				C6F666B51CA7BBE5000478C7 /* NSString+DSEncrypt.h */,
+				C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */,
+				C6F666B71CA7BBE5000478C7 /* NSString+DSPredicate.h */,
+				C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */,
+			);
+			name = "字符串";
+			sourceTree = "<group>";
+		};
+		C654B2AE1D6EA0990011E9FB /* 图片处理 */ = {
+			isa = PBXGroup;
+			children = (
+				C62360851D2CDF4500C15191 /* UIImage+DSImageColor.h */,
+				C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */,
+				C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */,
+				C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */,
+			);
+			name = "图片处理";
+			sourceTree = "<group>";
+		};
+		C654B2AF1D6EBFE80011E9FB /* 色值 */ = {
+			isa = PBXGroup;
+			children = (
+				C6F666B91CA7BBE5000478C7 /* UIColor+DSHexColor.h */,
+				C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */,
+			);
+			name = "色值";
+			sourceTree = "<group>";
+		};
+		C654B2B11D6EC0030011E9FB /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				C623608B1D2CE16F00C15191 /* NSMutableArray+DSSort.h */,
+				C623608C1D2CE16F00C15191 /* NSMutableArray+DSSort.m */,
+			);
+			name = "数组";
+			sourceTree = "<group>";
+		};
+		C654B2B21D6EC00B0011E9FB /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */,
+				C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		C654B2B31D6EC01D0011E9FB /* 适配 */ = {
+			isa = PBXGroup;
+			children = (
+				C6F666BB1CA7BBE5000478C7 /* UIScreen+DSScreenSize.h */,
+				C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */,
+			);
+			name = "适配";
+			path = DSCommon;
+			sourceTree = "<group>";
+		};
+		C654B2B41D6ECA350011E9FB /* 数据模型 */ = {
+			isa = PBXGroup;
+			children = (
+				C654B2B51D6ECA4F0011E9FB /* DSBaseDataModel.h */,
+				C654B2B61D6ECA4F0011E9FB /* DSBaseDataModel.m */,
+			);
+			name = "数据模型";
 			sourceTree = "<group>";
 		};
 		C65CAE281D2E333B00AFEB6F /* HTTP */ = {
@@ -201,40 +341,25 @@
 		C6F666AD1CA7BB8D000478C7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C654B2A41D6E9F960011E9FB /* AppDelegate+DSAppDelegate.h */,
+				C654B2A51D6E9F960011E9FB /* AppDelegate+DSAppDelegate.m */,
 				C6F666B01CA7BBBD000478C7 /* DSCommon.h */,
 				C62360911D2CE7A500C15191 /* DSMacro.h */,
-				C6F666B11CA7BBBD000478C7 /* DSDevice.h */,
-				C6F666B41CA7BBE5000478C7 /* DSDevice.m */,
-				C62406BA1D2FA1D50029E49C /* DSFileManager.h */,
-				C62406BB1D2FA1D50029E49C /* DSFileManager.m */,
-				C62406B31D2F4ED10029E49C /* DSAuthority.h */,
-				C62406B41D2F4ED10029E49C /* DSAuthority.m */,
-				C62406BD1D2FA6430029E49C /* DSAnimation.h */,
-				C62406BE1D2FA6430029E49C /* DSAnimation.m */,
-				C6766DD11D4853FD004BDDE5 /* DSAttribuateLabel.h */,
-				C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */,
+				C654B2B41D6ECA350011E9FB /* 数据模型 */,
+				C654B2AC1D6EA0010011E9FB /* 基类 */,
+				C654B2AA1D6E9FD90011E9FB /* 系统权限 */,
+				C654B2A91D6E9FCE0011E9FB /* 文件处理 */,
+				C654B2A81D6E9FBF0011E9FB /* 设备信息 */,
+				C654B2A71D6E9FAC0011E9FB /* 转场动画 */,
+				C654B2AB1D6E9FEB0011E9FB /* 富文本 */,
 				C63A36761D52DAC700B62E0F /* 分享 */,
 				C65CAE281D2E333B00AFEB6F /* HTTP */,
-				C638C23E1CB53FB5000B452C /* NSString+DSURLString.h */,
-				C638C23F1CB53FB5000B452C /* NSString+DSURLString.m */,
-				C6F666B51CA7BBE5000478C7 /* NSString+DSEncrypt.h */,
-				C6F666B61CA7BBE5000478C7 /* NSString+DSEncrypt.m */,
-				C6F666B71CA7BBE5000478C7 /* NSString+DSPredicate.h */,
-				C6F666B81CA7BBE5000478C7 /* NSString+DSPredicate.m */,
-				C6F666B91CA7BBE5000478C7 /* UIColor+DSHexColor.h */,
-				C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */,
-				C62360851D2CDF4500C15191 /* UIImage+DSImageColor.h */,
-				C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */,
-				C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */,
-				C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */,
-				C6F666BB1CA7BBE5000478C7 /* UIScreen+DSScreenSize.h */,
-				C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */,
-				C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */,
-				C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */,
-				C6F666AE1CA7BBBD000478C7 /* DSBaseViewController.h */,
-				C6F666AF1CA7BBBD000478C7 /* DSBaseViewController.m */,
-				C623608B1D2CE16F00C15191 /* NSMutableArray+DSSort.h */,
-				C623608C1D2CE16F00C15191 /* NSMutableArray+DSSort.m */,
+				C654B2AD1D6EA0880011E9FB /* 字符串 */,
+				C654B2AE1D6EA0990011E9FB /* 图片处理 */,
+				C654B2AF1D6EBFE80011E9FB /* 色值 */,
+				C654B2B21D6EC00B0011E9FB /* UIView */,
+				C654B2B31D6EC01D0011E9FB /* 适配 */,
+				C654B2B11D6EC0030011E9FB /* 数组 */,
 			);
 			name = Classes;
 			path = ..;
@@ -270,6 +395,7 @@
 		C6D703B71C92AC0200F9375D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DS;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = QiujunTech;
 				TargetAttributes = {
@@ -365,23 +491,27 @@
 				C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */,
 				C6F666C91CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */,
 				C6F666C11CA7BBE5000478C7 /* NSString+DSEncrypt.m in Sources */,
+				C654B2B71D6ECA4F0011E9FB /* DSBaseDataModel.m in Sources */,
 				C62406BF1D2FA6430029E49C /* DSAnimation.m in Sources */,
 				C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */,
 				C6F666C51CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */,
 				C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */,
 				C6766DD31D4853FD004BDDE5 /* DSAttribuateLabel.m in Sources */,
+				C629C51D1D645971000B314A /* DSBaseNavigationController.m in Sources */,
 				C6F666B21CA7BBBD000478C7 /* DSBaseViewController.m in Sources */,
 				C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */,
 				C627F8511D2CB69A00210620 /* UIImage+DSColorImage.m in Sources */,
 				C62406BC1D2FA1D50029E49C /* DSFileManager.m in Sources */,
 				C6F666BF1CA7BBE5000478C7 /* DSDevice.m in Sources */,
 				C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */,
+				C654B2A61D6E9F960011E9FB /* AppDelegate+DSAppDelegate.m in Sources */,
 				C6F666C31CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */,
 				C62360881D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */,
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
 				C62406B51D2F4ED10029E49C /* DSAuthority.m in Sources */,
 				C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */,
 				C63A36791D52DADB00B62E0F /* DSShareView.m in Sources */,
+				C629C5201D6459FD000B314A /* DSBaseTabBarController.m in Sources */,
 				C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */,
 				C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */,
 			);
