@@ -18,7 +18,6 @@
 -(UIColor*)mostColor
 {
     
-    
 #if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_6_1
     int bitmapInfo = kCGBitmapByteOrderDefault | kCGImageAlphaPremultipliedLast;
 #else
@@ -66,6 +65,7 @@
             
         }
     }
+    
     CGContextRelease(context);
     
     
@@ -89,5 +89,6 @@
     
     return [UIColor colorWithRed:([MaxColor[0] intValue]/255.0f) green:([MaxColor[1] intValue]/255.0f) blue:([MaxColor[2] intValue]/255.0f) alpha:([MaxColor[3] intValue]/255.0f)];
 }
+
 
 @end

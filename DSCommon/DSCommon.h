@@ -33,8 +33,10 @@
 
 #import "UIImage+DSColorImage.h"  //根据色值生成图片
 #import "UIImage+DSImageColor.h"  //获取图片的主色调
+#import "UIImage+DSBlurImage.h"   //模糊效果
 
 #import "UIView+DSCapture.h"      //截取UIView
+#import "UIView+DSQRCode.h"       //二维码生成器
 
 #import "NSMutableArray+DSSort.h" //数组排序
 

@@ -19,7 +19,7 @@
 #define kImage(name) [UIImage imageNamed:name]
 
 //普通输出
-#define DSLog(...)      NSLog(@"%@",__VA_ARGS__);
+#define DSLog(...)      NSLog(@"+++++++++++++++++++++++++++++ \n %s \n %@ ",__func__,__VA_ARGS__);
 
 //输出点、坐标、Rect
 #define DSLogPoint(p)	NSLog(@"%.2f,%.2f", p.x, p.y);
@@ -37,6 +37,12 @@
 //RGB色值
 #define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define RGB(r, g, b) RGBA(r,g,b,1.0f)
+
+//CGRect
+
+#define FullRect [UIScreen mainScreen].bounds
+
+#define RectWithOutBar CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64)
 
 //单例快捷操作
 #define DEFINE_SINGLETON_FOR_HEADER(className) \

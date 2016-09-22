@@ -22,6 +22,7 @@
 		C65CAE171D2E096F00AFEB6F /* DSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE161D2E096F00AFEB6F /* DSRequest.m */; };
 		C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE191D2E098400AFEB6F /* DSResponse.m */; };
 		C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */; };
+		C67656AF1D92255000C78814 /* DSTest.c in Sources */ = {isa = PBXBuildFile; fileRef = C67656AD1D92255000C78814 /* DSTest.c */; };
 		C6766DD31D4853FD004BDDE5 /* DSAttribuateLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */; };
 		C6D703C41C92AC0200F9375D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C31C92AC0200F9375D /* main.m */; };
 		C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C61C92AC0200F9375D /* AppDelegate.m */; };
@@ -36,6 +37,10 @@
 		C6F666C51CA7BBE5000478C7 /* UIColor+DSHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BA1CA7BBE5000478C7 /* UIColor+DSHexColor.m */; };
 		C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */; };
 		C6F666C91CA7BBE5000478C7 /* UIView+DSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */; };
+		C6F8A9931D90D85700E2015A /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6F8A9921D90D85700E2015A /* test.jpg */; };
+		C6F8A9951D90DBD100E2015A /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6F8A9941D90DBD100E2015A /* one.jpg */; };
+		C6F8A9981D90DDEB00E2015A /* UIImage+DSBlurImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8A9971D90DDEB00E2015A /* UIImage+DSBlurImage.m */; };
+		C6F8A99B1D90FFF500E2015A /* UIView+DSQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8A99A1D90FFF500E2015A /* UIView+DSQRCode.m */; };
 		FD19D96AFE98C3EDD2142D68 /* libPods-DSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +90,8 @@
 		C65CAE191D2E098400AFEB6F /* DSResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSResponse.m; sourceTree = "<group>"; };
 		C65CAE221D2E332B00AFEB6F /* DSHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHTTPRequest.h; sourceTree = "<group>"; };
 		C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHTTPRequest.m; sourceTree = "<group>"; };
+		C67656AD1D92255000C78814 /* DSTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DSTest.c; sourceTree = "<group>"; };
+		C67656AE1D92255000C78814 /* DSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTest.h; sourceTree = "<group>"; };
 		C6766DD11D4853FD004BDDE5 /* DSAttribuateLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAttribuateLabel.h; sourceTree = "<group>"; };
 		C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAttribuateLabel.m; sourceTree = "<group>"; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +119,12 @@
 		C6F666BC1CA7BBE5000478C7 /* UIScreen+DSScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+DSScreenSize.m"; sourceTree = "<group>"; };
 		C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DSCapture.h"; path = "DSCommon/UIView+DSCapture.h"; sourceTree = "<group>"; };
 		C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DSCapture.m"; path = "DSCommon/UIView+DSCapture.m"; sourceTree = "<group>"; };
+		C6F8A9921D90D85700E2015A /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		C6F8A9941D90DBD100E2015A /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		C6F8A9961D90DDEB00E2015A /* UIImage+DSBlurImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DSBlurImage.h"; sourceTree = "<group>"; };
+		C6F8A9971D90DDEB00E2015A /* UIImage+DSBlurImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DSBlurImage.m"; sourceTree = "<group>"; };
+		C6F8A9991D90FFF500E2015A /* UIView+DSQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DSQRCode.h"; sourceTree = "<group>"; };
+		C6F8A99A1D90FFF500E2015A /* UIView+DSQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DSQRCode.m"; sourceTree = "<group>"; };
 		C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DSCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFF888257D69539275FF56D /* Pods-DSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSCommon/Pods-DSCommon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -232,6 +245,8 @@
 				C62360861D2CDF4500C15191 /* UIImage+DSImageColor.m */,
 				C627F84F1D2CB69A00210620 /* UIImage+DSColorImage.h */,
 				C627F8501D2CB69A00210620 /* UIImage+DSColorImage.m */,
+				C6F8A9961D90DDEB00E2015A /* UIImage+DSBlurImage.h */,
+				C6F8A9971D90DDEB00E2015A /* UIImage+DSBlurImage.m */,
 			);
 			name = "图片处理";
 			sourceTree = "<group>";
@@ -259,6 +274,8 @@
 			children = (
 				C6F666BD1CA7BBE5000478C7 /* UIView+DSCapture.h */,
 				C6F666BE1CA7BBE5000478C7 /* UIView+DSCapture.m */,
+				C6F8A9991D90FFF500E2015A /* UIView+DSQRCode.h */,
+				C6F8A99A1D90FFF500E2015A /* UIView+DSQRCode.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -316,11 +333,15 @@
 		C6D703C11C92AC0200F9375D /* DSCommon */ = {
 			isa = PBXGroup;
 			children = (
+				C6F8A9921D90D85700E2015A /* test.jpg */,
+				C6F8A9941D90DBD100E2015A /* one.jpg */,
 				C6F666AD1CA7BB8D000478C7 /* Classes */,
 				C6D703C51C92AC0200F9375D /* AppDelegate.h */,
 				C6D703C61C92AC0200F9375D /* AppDelegate.m */,
 				C6D703C81C92AC0200F9375D /* ViewController.h */,
 				C6D703C91C92AC0200F9375D /* ViewController.m */,
+				C67656AD1D92255000C78814 /* DSTest.c */,
+				C67656AE1D92255000C78814 /* DSTest.h */,
 				C6D703CB1C92AC0200F9375D /* Main.storyboard */,
 				C6D703CE1C92AC0200F9375D /* Assets.xcassets */,
 				C6D703D01C92AC0300F9375D /* LaunchScreen.storyboard */,
@@ -428,8 +449,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D703D21C92AC0300F9375D /* LaunchScreen.storyboard in Resources */,
+				C6F8A9951D90DBD100E2015A /* one.jpg in Resources */,
 				C6D703CF1C92AC0200F9375D /* Assets.xcassets in Resources */,
 				C6D703CD1C92AC0200F9375D /* Main.storyboard in Resources */,
+				C6F8A9931D90D85700E2015A /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,15 +528,18 @@
 				C6F666BF1CA7BBE5000478C7 /* DSDevice.m in Sources */,
 				C6F666C71CA7BBE5000478C7 /* UIScreen+DSScreenSize.m in Sources */,
 				C654B2A61D6E9F960011E9FB /* AppDelegate+DSAppDelegate.m in Sources */,
+				C67656AF1D92255000C78814 /* DSTest.c in Sources */,
 				C6F666C31CA7BBE5000478C7 /* NSString+DSPredicate.m in Sources */,
 				C62360881D2CDF4500C15191 /* UIImage+DSImageColor.m in Sources */,
 				C6D703C41C92AC0200F9375D /* main.m in Sources */,
 				C62406B51D2F4ED10029E49C /* DSAuthority.m in Sources */,
+				C6F8A99B1D90FFF500E2015A /* UIView+DSQRCode.m in Sources */,
 				C65CAE1B1D2E098400AFEB6F /* DSResponse.m in Sources */,
 				C63A36791D52DADB00B62E0F /* DSShareView.m in Sources */,
 				C629C5201D6459FD000B314A /* DSBaseTabBarController.m in Sources */,
 				C638C2401CB53FB5000B452C /* NSString+DSURLString.m in Sources */,
 				C623608E1D2CE16F00C15191 /* NSMutableArray+DSSort.m in Sources */,
+				C6F8A9981D90DDEB00E2015A /* UIImage+DSBlurImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,9 +660,11 @@
 				);
 				INFOPLIST_FILE = DSCommon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yellfun.DSCommon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"$(PODS_ROOT)\"/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -656,6 +684,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yellfun.DSCommon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"$(PODS_ROOT)\"/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

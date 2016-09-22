@@ -72,9 +72,13 @@
 + (BOOL) isNotificationAuthorized
 {
     BOOL isAllowNotifi = NO;
+    
     UIUserNotificationSettings *setting = [[UIApplication sharedApplication] currentUserNotificationSettings];
+    
     if (UIUserNotificationTypeNone != setting.types) {
+        
         isAllowNotifi = YES;
+        
     }
     return isAllowNotifi;
 }

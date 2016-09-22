@@ -25,4 +25,7 @@
  *  @return 图片返回值
  */
 - (UIImage*)captureWithRect:(CGRect)rect;
+
+
+
 @end
