@@ -24,6 +24,11 @@
 		C65CAE251D2E332B00AFEB6F /* DSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAE231D2E332B00AFEB6F /* DSHTTPRequest.m */; };
 		C67656AF1D92255000C78814 /* DSTest.c in Sources */ = {isa = PBXBuildFile; fileRef = C67656AD1D92255000C78814 /* DSTest.c */; };
 		C6766DD31D4853FD004BDDE5 /* DSAttribuateLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */; };
+		C6C2921B1E63F38200C6A2B4 /* DSFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C292121E63F38100C6A2B4 /* DSFramework.framework */; };
+		C6C292221E63F38200C6A2B4 /* DSFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C292211E63F38200C6A2B4 /* DSFrameworkTests.m */; };
+		C6C292241E63F38200C6A2B4 /* DSFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C292141E63F38100C6A2B4 /* DSFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C292271E63F38200C6A2B4 /* DSFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C292121E63F38100C6A2B4 /* DSFramework.framework */; };
+		C6C292281E63F38200C6A2B4 /* DSFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6C292121E63F38100C6A2B4 /* DSFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C6D703C41C92AC0200F9375D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C31C92AC0200F9375D /* main.m */; };
 		C6D703C71C92AC0200F9375D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C61C92AC0200F9375D /* AppDelegate.m */; };
 		C6D703CA1C92AC0200F9375D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D703C91C92AC0200F9375D /* ViewController.m */; };
@@ -44,6 +49,30 @@
 		FD19D96AFE98C3EDD2142D68 /* libPods-DSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7885AB03F8805E00BEB62E5 /* libPods-DSCommon.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C6C2921C1E63F38200C6A2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D703B71C92AC0200F9375D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6C292111E63F38100C6A2B4;
+			remoteInfo = DSFramework;
+		};
+		C6C2921E1E63F38200C6A2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D703B71C92AC0200F9375D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D703BE1C92AC0200F9375D;
+			remoteInfo = DSCommon;
+		};
+		C6C292251E63F38200C6A2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D703B71C92AC0200F9375D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6C292111E63F38100C6A2B4;
+			remoteInfo = DSFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		C6F666FF1CA7BEFB000478C7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -51,6 +80,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C6C292281E63F38200C6A2B4 /* DSFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +124,12 @@
 		C67656AE1D92255000C78814 /* DSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTest.h; sourceTree = "<group>"; };
 		C6766DD11D4853FD004BDDE5 /* DSAttribuateLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAttribuateLabel.h; sourceTree = "<group>"; };
 		C6766DD21D4853FD004BDDE5 /* DSAttribuateLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAttribuateLabel.m; sourceTree = "<group>"; };
+		C6C292121E63F38100C6A2B4 /* DSFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C292141E63F38100C6A2B4 /* DSFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSFramework.h; sourceTree = "<group>"; };
+		C6C292151E63F38200C6A2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C2921A1E63F38200C6A2B4 /* DSFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C292211E63F38200C6A2B4 /* DSFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSFrameworkTests.m; sourceTree = "<group>"; };
+		C6C292231E63F38200C6A2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6D703BF1C92AC0200F9375D /* DSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D703C31C92AC0200F9375D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6D703C51C92AC0200F9375D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,10 +166,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C6C2920E1E63F38100C6A2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C292171E63F38200C6A2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C2921B1E63F38200C6A2B4 /* DSFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6D703BC1C92AC0200F9375D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C292271E63F38200C6A2B4 /* DSFramework.framework in Frameworks */,
 				FD19D96AFE98C3EDD2142D68 /* libPods-DSCommon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,10 +364,30 @@
 			name = HTTP;
 			sourceTree = "<group>";
 		};
+		C6C292131E63F38100C6A2B4 /* DSFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C6C292141E63F38100C6A2B4 /* DSFramework.h */,
+				C6C292151E63F38200C6A2B4 /* Info.plist */,
+			);
+			path = DSFramework;
+			sourceTree = "<group>";
+		};
+		C6C292201E63F38200C6A2B4 /* DSFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6C292211E63F38200C6A2B4 /* DSFrameworkTests.m */,
+				C6C292231E63F38200C6A2B4 /* Info.plist */,
+			);
+			path = DSFrameworkTests;
+			sourceTree = "<group>";
+		};
 		C6D703B61C92AC0200F9375D = {
 			isa = PBXGroup;
 			children = (
 				C6D703C11C92AC0200F9375D /* DSCommon */,
+				C6C292131E63F38100C6A2B4 /* DSFramework */,
+				C6C292201E63F38200C6A2B4 /* DSFrameworkTests */,
 				C6D703C01C92AC0200F9375D /* Products */,
 				0164DE844837C83459343703 /* Pods */,
 				B74DFFA9A70A6FADA1D69C2C /* Frameworks */,
@@ -326,6 +398,8 @@
 			isa = PBXGroup;
 			children = (
 				C6D703BF1C92AC0200F9375D /* DSCommon.app */,
+				C6C292121E63F38100C6A2B4 /* DSFramework.framework */,
+				C6C2921A1E63F38200C6A2B4 /* DSFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -388,7 +462,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C6C2920F1E63F38100C6A2B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C292241E63F38200C6A2B4 /* DSFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		C6C292111E63F38100C6A2B4 /* DSFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C2922D1E63F38200C6A2B4 /* Build configuration list for PBXNativeTarget "DSFramework" */;
+			buildPhases = (
+				C6C2920D1E63F38100C6A2B4 /* Sources */,
+				C6C2920E1E63F38100C6A2B4 /* Frameworks */,
+				C6C2920F1E63F38100C6A2B4 /* Headers */,
+				C6C292101E63F38100C6A2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSFramework;
+			productName = DSFramework;
+			productReference = C6C292121E63F38100C6A2B4 /* DSFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6C292191E63F38200C6A2B4 /* DSFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C2922E1E63F38200C6A2B4 /* Build configuration list for PBXNativeTarget "DSFrameworkTests" */;
+			buildPhases = (
+				C6C292161E63F38200C6A2B4 /* Sources */,
+				C6C292171E63F38200C6A2B4 /* Frameworks */,
+				C6C292181E63F38200C6A2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6C2921D1E63F38200C6A2B4 /* PBXTargetDependency */,
+				C6C2921F1E63F38200C6A2B4 /* PBXTargetDependency */,
+			);
+			name = DSFrameworkTests;
+			productName = DSFrameworkTests;
+			productReference = C6C2921A1E63F38200C6A2B4 /* DSFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C6D703BE1C92AC0200F9375D /* DSCommon */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6D703D61C92AC0300F9375D /* Build configuration list for PBXNativeTarget "DSCommon" */;
@@ -404,6 +526,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C6C292261E63F38200C6A2B4 /* PBXTargetDependency */,
 			);
 			name = DSCommon;
 			productName = DSCommon;
@@ -420,6 +543,17 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = QiujunTech;
 				TargetAttributes = {
+					C6C292111E63F38100C6A2B4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YKB66Z3T3Q;
+						ProvisioningStyle = Automatic;
+					};
+					C6C292191E63F38200C6A2B4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YKB66Z3T3Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6D703BE1C92AC0200F9375D;
+					};
 					C6D703BE1C92AC0200F9375D = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = YKB66Z3T3Q;
@@ -440,11 +574,27 @@
 			projectRoot = "";
 			targets = (
 				C6D703BE1C92AC0200F9375D /* DSCommon */,
+				C6C292111E63F38100C6A2B4 /* DSFramework */,
+				C6C292191E63F38200C6A2B4 /* DSFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C6C292101E63F38100C6A2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C292181E63F38200C6A2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6D703BD1C92AC0200F9375D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -508,6 +658,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C6C2920D1E63F38100C6A2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C292161E63F38200C6A2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C292221E63F38200C6A2B4 /* DSFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6D703BB1C92AC0200F9375D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,6 +711,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C6C2921D1E63F38200C6A2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6C292111E63F38100C6A2B4 /* DSFramework */;
+			targetProxy = C6C2921C1E63F38200C6A2B4 /* PBXContainerItemProxy */;
+		};
+		C6C2921F1E63F38200C6A2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D703BE1C92AC0200F9375D /* DSCommon */;
+			targetProxy = C6C2921E1E63F38200C6A2B4 /* PBXContainerItemProxy */;
+		};
+		C6C292261E63F38200C6A2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6C292111E63F38100C6A2B4 /* DSFramework */;
+			targetProxy = C6C292251E63F38200C6A2B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		C6D703CB1C92AC0200F9375D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -566,6 +749,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C6C292291E63F38200C6A2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YKB66Z3T3Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DSFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yellfun.DSFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6C2922A1E63F38200C6A2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YKB66Z3T3Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DSFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yellfun.DSFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6C2922B1E63F38200C6A2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = YKB66Z3T3Q;
+				INFOPLIST_FILE = DSFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yellfun.DSFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSCommon.app/DSCommon";
+			};
+			name = Debug;
+		};
+		C6C2922C1E63F38200C6A2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = YKB66Z3T3Q;
+				INFOPLIST_FILE = DSFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yellfun.DSFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSCommon.app/DSCommon";
+			};
+			name = Release;
+		};
 		C6D703D41C92AC0300F9375D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -698,6 +961,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C6C2922D1E63F38200C6A2B4 /* Build configuration list for PBXNativeTarget "DSFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C292291E63F38200C6A2B4 /* Debug */,
+				C6C2922A1E63F38200C6A2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6C2922E1E63F38200C6A2B4 /* Build configuration list for PBXNativeTarget "DSFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C2922B1E63F38200C6A2B4 /* Debug */,
+				C6C2922C1E63F38200C6A2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C6D703BA1C92AC0200F9375D /* Build configuration list for PBXProject "DSCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

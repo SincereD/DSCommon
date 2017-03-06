@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>DSFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>SIncereCommon.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C685CE0E1CA2D92E00101DBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6C292111E63F38100C6A2B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6C292191E63F38200C6A2B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

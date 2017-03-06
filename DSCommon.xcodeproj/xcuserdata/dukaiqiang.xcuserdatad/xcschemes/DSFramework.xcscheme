@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C6D703BE1C92AC0200F9375D"
-               BuildableName = "DSCommon.app"
-               BlueprintName = "DSCommon"
+               BlueprintIdentifier = "C6C292111E63F38100C6A2B4"
+               BuildableName = "DSFramework.framework"
+               BlueprintName = "DSFramework"
                ReferencedContainer = "container:DSCommon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C6C292191E63F38200C6A2B4"
-               BuildableName = "DSFrameworkTests.xctest"
-               BlueprintName = "DSFrameworkTests"
-               ReferencedContainer = "container:DSCommon.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6D703BE1C92AC0200F9375D"
-            BuildableName = "DSCommon.app"
-            BlueprintName = "DSCommon"
-            ReferencedContainer = "container:DSCommon.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6D703BE1C92AC0200F9375D"
-            BuildableName = "DSCommon.app"
-            BlueprintName = "DSCommon"
+            BlueprintIdentifier = "C6C292111E63F38100C6A2B4"
+            BuildableName = "DSFramework.framework"
+            BlueprintName = "DSFramework"
             ReferencedContainer = "container:DSCommon.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6D703BE1C92AC0200F9375D"
-            BuildableName = "DSCommon.app"
-            BlueprintName = "DSCommon"
+            BlueprintIdentifier = "C6C292111E63F38100C6A2B4"
+            BuildableName = "DSFramework.framework"
+            BlueprintName = "DSFramework"
             ReferencedContainer = "container:DSCommon.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
